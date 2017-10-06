@@ -1073,8 +1073,8 @@ div.sku strong{
        <div id="grid-menu">
        	   View:
            <ul>           	   
-               <li class="largeGrid"><a href=""></a></li>
-               <li class="smallGrid"><a class="active" href=""></a></li>
+               <li class="largeGrid"><a class="active" href=""></a></li>
+               <li class="smallGrid"><a  href=""></a></li>
            </ul>
        </div>
        
