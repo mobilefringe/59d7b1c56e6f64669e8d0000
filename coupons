@@ -1085,7 +1085,9 @@ div.sku strong{
 <div id="grid">
     <div class="product large">
     	<div class="info-large">
+    	    <h3>Lole</h3>
         	<h4>Buy 1 get 1 Free</h4>
+        	<h3>Oct 7 - Oct 10</h3>
             <!--<div class="sku">-->
             <!--	PRODUCT SKU: <strong>89356</strong>-->
             <!--</div>-->
