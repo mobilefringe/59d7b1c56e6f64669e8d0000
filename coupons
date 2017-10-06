@@ -1,11 +1,11 @@
 <style>
     /*	Reset & General
 ---------------------------------------------------------------------- */
-* { margin: 0px; padding: 0px; }
-body {
-	font-family: "Open Sans", sans-serif; 
-	overflow:hidden;	
-}
+/** { margin: 0px; padding: 0px; }*/
+/*body {*/
+/*	font-family: "Open Sans", sans-serif; */
+/*	overflow:hidden;	*/
+/*}*/
 #wrapper{
 	overflow: hidden;
 	height: 1153px;
