@@ -2055,6 +2055,7 @@ div.sku strong{
 			
 		}, 1000);
 	});
-	show_content();
+	$('.custom_backdrop').remove();
+    $('.yield').fadeIn();
 });
 </script>
