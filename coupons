@@ -43,6 +43,7 @@
 	float: left;
 	color: #5d5f68;
 	font-size: 14px;
+	position: absolute;
 }
 #grid-menu{
 	float:right;
