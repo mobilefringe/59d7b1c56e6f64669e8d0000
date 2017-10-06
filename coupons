@@ -1799,7 +1799,7 @@ div.sku strong{
 <!--<script src="menu.js"></script>-->
 <script>
     $(document).ready(function(){
-	$(".largeGrid").trigger( "click" );
+	console.log($(".largeGrid").trigger( "click" ));
 	$(".largeGrid").click(function(){											
         $(this).find('a').addClass('active');
         $('.smallGrid a').removeClass('active');
