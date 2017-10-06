@@ -334,6 +334,7 @@ div.large .make3D{
 .large div.make3D{box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0);}
 .large div.flip-back{display:none;}
 .stats-container{
+        display: none;
 	background:#fff;	
 	position:absolute;
 	top:382px;
