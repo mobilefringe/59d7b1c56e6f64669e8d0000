@@ -620,13 +620,13 @@ div.shadow{
 }
 .carousel li{
 	width:315px;
-	height:500px;
+	height:250px;
 	float:left;
 	overflow:hidden;	
 }
 .carousel img{
 	margin-top: -22px;
-	width: 110%;
+	width: 100%;
 }
 .arrows-perspective{
 	width:315px;
