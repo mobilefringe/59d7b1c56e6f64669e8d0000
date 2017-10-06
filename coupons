@@ -1086,9 +1086,9 @@ div.sku strong{
     <div class="product large">
     	<div class="info-large">
         	<h4>Buy 1 get 1 Free</h4>
-            <div class="sku">
-            	PRODUCT SKU: <strong>89356</strong>
-            </div>
+            <!--<div class="sku">-->
+            <!--	PRODUCT SKU: <strong>89356</strong>-->
+            <!--</div>-->
              
             <div class="price-big">
             	<span>$43</span> $39
