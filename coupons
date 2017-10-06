@@ -1135,8 +1135,6 @@ div.sku strong{
                 <div class="carousel">
                     <ul class="carousel-container">
                         <li><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" /></li>
-                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2.jpg" alt="" /></li>
-                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="" /></li>
                     </ul>
                     <div class="arrows-perspective">
                         <div class="carouselPrev">
