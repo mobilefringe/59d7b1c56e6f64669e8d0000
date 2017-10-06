@@ -242,7 +242,13 @@
 		 -o-transition: width 500ms ease-in-out;
  		    transition: width 500ms ease-in-out;
 }
-.product-front img{width:100%;}
+.product-front img{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .product-front, .product-back{
 	width:315px;
 	height:480px;
