@@ -719,7 +719,7 @@ div.floating-cart{
 	top:0;
 	left:0; 
 	width:315px;	
-	height:480px;
+	height:250px;
 	background:#fff;
 	z-index:200;
 	overflow:hidden;
