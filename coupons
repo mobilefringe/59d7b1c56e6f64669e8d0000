@@ -1800,7 +1800,8 @@ div.sku strong{
 <script>
     $(document).ready(function(){
 	console.log($(".largeGrid").click());
-	$(".largeGrid").click(function(){											
+	$(".largeGrid").click(function(){		
+	    console.log("trigger");
         $(this).find('a').addClass('active');
         $('.smallGrid a').removeClass('active');
         
