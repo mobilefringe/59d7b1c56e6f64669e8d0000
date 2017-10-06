@@ -9,7 +9,8 @@
 #wrapper{
 	overflow: hidden;
 	height: 1153px;
-	width: 1643px;
+	width: 100% 
+	/*1643px;*/
 	background:#fff;
 	position:relative;
 }
