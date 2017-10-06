@@ -2055,5 +2055,6 @@ div.sku strong{
 			
 		}, 1000);
 	});
+	show_content();
 });
 </script>
