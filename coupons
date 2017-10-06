@@ -333,8 +333,7 @@ div.large .make3D{
 	position:absolute;
 	top:382px;
 	left:0;
-	width: 100%
-	/*252px;*/
+	width: 100%;/*252px;*/
 	height: 300px;
 	padding: 24px 40px 35px 32px;
 	-webkit-transition: all 200ms ease-out; 
