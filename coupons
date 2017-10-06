@@ -609,7 +609,7 @@ div.shadow{
 }
 .carousel{
 	width:315px;
-	height:500px;
+	height:250px;
 	overflow:hidden;
 	position:relative;
 }
