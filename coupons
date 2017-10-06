@@ -1090,9 +1090,9 @@ div.sku strong{
             <!--	PRODUCT SKU: <strong>89356</strong>-->
             <!--</div>-->
              
-            <div class="price-big">
-            	<span>$43</span> $39
-            </div>
+            <!--<div class="price-big">-->
+            <!--	<span>$43</span> $39-->
+            <!--</div>-->
              
             <h3>COLORS</h3>
             <div class="colors-large">
