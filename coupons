@@ -1082,7 +1082,7 @@ div.sku strong{
 </div>
 
 <div id="grid">
-    <div class="product">
+    <div class="product large">
     	<div class="info-large">
         	<h4>FLUTED HEM DRESS</h4>
             <div class="sku">
@@ -1172,7 +1172,7 @@ div.sku strong{
     </div>
     
     
-    <div class="product">
+    <div class="product large">
     <div class="info-large">
         	<h4>PLEAT PRINTED DRESS</h4>
             <div class="sku">
