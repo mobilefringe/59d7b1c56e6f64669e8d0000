@@ -231,7 +231,7 @@
     position: relative;
     perspective: 800px;
     width:306px;
-    height:471px;
+    height:250px;
     transform-style: preserve-3d;
     transition: transform 5s;
 	float:left; 
