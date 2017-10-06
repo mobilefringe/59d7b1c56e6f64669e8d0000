@@ -52,7 +52,8 @@
 	width:105px;
 }
 #grid-menu ul{
-  width: 65px;
+  width: 100%;
+  /*65px;*/
   float: right;
   position: relative;
   top: -1px;}
