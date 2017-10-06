@@ -858,7 +858,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 	width:100%;
 }
 .info-large{
-	  display:none;
+	  display:block;
 	  position: absolute;
 	  top: 0;
 	  left: 0px;
