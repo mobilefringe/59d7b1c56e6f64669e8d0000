@@ -1801,11 +1801,11 @@ div.sku strong{
     $(document).ready(function(){
 	
 	$(".largeGrid").click(function(){											
-    $(this).find('a').addClass('active');
-    $('.smallGrid a').removeClass('active');
-    
-    $('.product').addClass('large').each(function(){											
-		});						
+        $(this).find('a').addClass('active');
+        $('.smallGrid a').removeClass('active');
+        
+        $('.product').addClass('large').each(function(){											
+    		});						
 		setTimeout(function(){
 			$('.info-large').show();	
 		}, 200);
