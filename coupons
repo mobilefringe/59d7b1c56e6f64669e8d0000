@@ -1255,7 +1255,7 @@ div.sku strong{
 			
 		});				
 	
-		makeCarousel(el);
+// 		makeCarousel(el);
 	});
 	$('.add-to-basket').each(function(i, el){
 		$(el).click(function(){
