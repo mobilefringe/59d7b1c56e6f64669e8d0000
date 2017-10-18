@@ -905,7 +905,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 .floating-image-large{
 	position:absolute;
 	top:0;
-	left:0;
+	right:0;
 	width:100%;
 }
 .info-large{
