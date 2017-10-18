@@ -328,10 +328,10 @@ div.make3D.flip180{
             transition:  100ms ease-out; 
 }
 div.large .make3D{
-	top:0;
-	left:0;
-	width:315px;
-	height:220px;
+	/*top:0;*/
+	/*left:0;*/
+	/*width:315px;*/
+	/*height:220px;*/
 	background: white;
     margin: 15px;
 	-webkit-transition:  300ms ease-out; 
