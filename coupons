@@ -1571,7 +1571,7 @@ div.sku strong{
     });
     function renderAll(){
         $('.custom_backdrop').remove();
-    $('.yield').fadeIn();
-});
+        $('.yield').fadeIn();
+    });
     }
 </script>
