@@ -1567,7 +1567,7 @@ div.sku strong{
 <script>
     $(document).ready(function(e){
         init(e);
-
+        loadMallDataCached(renderPage);
     });
     function renderAll(){
         var stores = getStoresList();
