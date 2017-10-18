@@ -1115,9 +1115,9 @@ div.sku strong{
                     <div class="product-front">
                         <div class="shadow"></div>
                         <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
-                        <div class="image_overlay"></div>
-                        <div class="add_to_cart">Add to cart</div>
-                        <div class="view_gallery">View gallery</div>
+                        <!--<div class="image_overlay"></div>-->
+                        <!--<div class="add_to_cart">Add to cart</div>-->
+                        <!--<div class="view_gallery">View gallery</div>-->
                     </div>
                     
                     <!--<div class="product-back">-->
