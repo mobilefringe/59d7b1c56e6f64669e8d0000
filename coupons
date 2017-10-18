@@ -766,6 +766,7 @@ div.floating-cart{
 	box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0.15);
 	display:none;
 	margin:auto;
+	padding:10px;
 }
 
 div.floating-cart .stats-container{display:none;}
