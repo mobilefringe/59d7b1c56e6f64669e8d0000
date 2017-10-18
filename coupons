@@ -1562,7 +1562,7 @@ div.sku strong{
 			
 		}, 1000);
 	});
-    });
+	
 </script>
 <script>
     $(document).ready(function(e){
