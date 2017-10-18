@@ -1266,7 +1266,7 @@ div.sku strong{
 		        $(".basket_number").text(parseInt($(".basket_number").text())+1);
 		        var img = $("#"+ $(el).parent().parent().attr("id") +" .product-front img");
 		        var position =$(img).offset();	;//$("#"+$(el).parent().parent().attr("id") +" .product-front img").offset();	
-		        console.log("img",img, "img src",img.src);
+		        console.log("img",img, "img src",img.attr("src"));
     			$("body").append('<div class="floating-cart"></div>');		
     			var cart = $('div.floating-cart');		
     			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
