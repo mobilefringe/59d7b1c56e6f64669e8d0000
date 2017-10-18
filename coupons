@@ -1566,6 +1566,6 @@ div.sku strong{
 </script>
 <script>
     $(document).ready(function(e){
-        init(e)
+        init(e);
     })
 </script>
