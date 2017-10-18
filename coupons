@@ -335,7 +335,8 @@ div.large .make3D{
 	/*height:220px;*/
 	position:relative;
 	background: white;
-    margin: 15px;
+    /*margin: 15px;*/
+        margin: 50px auto;
 	-webkit-transition:  300ms ease-out; 
        -moz-transition:  300ms ease-out; 
          -o-transition:  300ms ease-out; 
