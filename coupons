@@ -781,7 +781,7 @@ div.floating-cart.moveToCart{
  		    transition: all 800ms ease-in-out; 
 }
 body.MakeFloatingCart div.floating-cart.moveToCart{	
-	right: 90px !important;
+	left: 90px !important;
 	top: 140px !important;
 	width: 21px;
 	height: 22px;
