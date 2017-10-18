@@ -1148,7 +1148,14 @@ div.sku strong{
 <div id="grid" class="row">
     <div class="product large col-md-6">
         <div class="col-md-6">
-            
+            <div class="info-large">
+    	    <h3>Lole</h3>
+        	<h4>Buy 1 get 1 Free</h4>
+        	<h3>Oct 7 - Oct 10</h3>
+      
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
         </div>
         <div class="col-md-6">
             
