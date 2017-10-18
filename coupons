@@ -870,7 +870,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 .info-large{
     text-align:center;
 	  display:block;
-	  position: absolute;
+	  /*position: absolute;*/
 	  /*top: 0;*/
 	  /*left: 0px;*/
 	  /*padding: 20px;*/
