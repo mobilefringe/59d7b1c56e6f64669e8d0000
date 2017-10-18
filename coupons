@@ -1268,7 +1268,7 @@ div.sku strong{
 		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
 		        $(el).parent().parent().removeClass("green_selected_box");
 		    }
-		    console.log($(".basket_number").text())
+		    console.log(parseInt($(".basket_number").text()));
 		  //  console.log($(el).parent().parent());
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
 // 			var img = carousel.find('img').eq(carousel.attr("rel"))[0];						
