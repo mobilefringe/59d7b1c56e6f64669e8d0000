@@ -1142,7 +1142,7 @@ div.sku strong{
 <!--       Showing 1–9 of 48 results -->
 <!--</div>-->
 
-<div id="grid">
+<div id="grid" class="row">
     <div class="product large">
     	<div class="info-large">
     	    <h3>Lole</h3>
