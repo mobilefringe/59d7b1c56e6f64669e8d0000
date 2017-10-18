@@ -1270,6 +1270,7 @@ div.sku strong{
 		        $(el).parent().parent().removeClass("green_selected_box");
 		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
 		    }
+		    //getting the logo image
 		    console.log($(el).parent().parent().attr("class"));
 		  //  console.log(parseInt($(".basket_number").text()));
 		  //  console.log($(el).parent().parent());
