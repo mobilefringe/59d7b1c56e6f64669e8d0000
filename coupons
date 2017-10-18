@@ -1143,7 +1143,7 @@ div.sku strong{
 <!--</div>-->
 
 <div id="grid" class="row">
-    <div class="product large">
+    <div class="product large col-md-6">
     	<div class="info-large">
     	    <h3>Lole</h3>
         	<h4>Buy 1 get 1 Free</h4>
