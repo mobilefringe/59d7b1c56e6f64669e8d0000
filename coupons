@@ -911,7 +911,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 	top:0;
 	right:0;
 	width:100%;
-	padding:20px;
+	padding:50px;
 }
 .info-large{
     text-align:center;
