@@ -1051,13 +1051,13 @@ div.sku strong{
         </div>
     </div>
     <div id="wrapper">
-    <div class="cart-icon-top"></div>
+    <!--<div class="cart-icon-top"></div>-->
 
-    <div class="cart-icon-bottom"></div>
+    <!--<div class="cart-icon-bottom"></div>-->
 
-    <div id="checkout">
-    	CHECKOUT
-    </div>
+    <!--<div id="checkout">-->
+    <!--	CHECKOUT-->
+    <!--</div>-->
 
 <!--<div id="info">-->
 <!--	<p class="i1">Add to cart interaction prototype by Virgil Pana</p>-->
