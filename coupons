@@ -1287,9 +1287,9 @@ div.sku strong{
 			$(cart).css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
 			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
 			
-// 			setTimeout(function(){
-// 			$('div.floating-cart').remove();
-// 			$("body").removeClass("MakeFloatingCart");
+			setTimeout(function(){
+			$('div.floating-cart').remove();
+			$("body").removeClass("MakeFloatingCart");
 
 
 // 			var cartItem = "<div class='cart-item'>1</div>";			
