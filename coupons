@@ -860,6 +860,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
     background: #F4F4F4;
 	/*width:639px;*/
 	margin-bottom:25px;
+	padding:15px;
 	overflow:hidden;
 	-webkit-transition: all 500ms ease-in-out;
 	   -moz-transition: all 500ms ease-in-out;
