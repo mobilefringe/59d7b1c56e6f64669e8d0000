@@ -1289,7 +1289,7 @@ div.sku strong{
 			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
 			
 			setTimeout(function(){
-			$('div.floating-cart').remove();
+// 			$('div.floating-cart').remove();
 			$("body").removeClass("MakeFloatingCart");
 
 
