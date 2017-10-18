@@ -938,7 +938,7 @@ div.sku strong{
     background: #fff;
     text-transform: uppercase;
     font-weight: 500;
-    padding: 10px;
+    padding: 7px;
     font-family: "Open Sans", sans-serif;
     /*width: 246px;*/
     /*margin-top: 38px;	*/
