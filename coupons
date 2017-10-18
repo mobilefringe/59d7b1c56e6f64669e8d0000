@@ -1062,136 +1062,136 @@ div.sku strong{
     <div id="wrapper">
 
         <div id="grid" class="row">
-    <div class="col-md-6">
-        <div class="product large">
-        	<div class="info-large col-md-6">
-        	    <h3>Lole</h3>
-            	<h4>Buy 1 get 1 Free</h4>
-            	<h3>Oct 7 - Oct 10</h3>
-          
-                <button class="add-cart-large">Add To Cart</button>                          
-                             
-            </div>
-            <div class="make3D col-md-6">
-                <div class="product-front">
-                    <div class="shadow"></div>
-                    <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
-                    <div class="image_overlay"></div>
-                    <div class="add_to_cart">Add to cart</div>
-                    <div class="view_gallery">View gallery</div>                
-                    <!--<div class="stats">        	-->
-                    <!--    <div class="stats-container">-->
-                    <!--        <span class="product_price">$39</span>-->
-                    <!--        <span class="product_name">FLUTED HEM DRESS</span>    -->
-                    <!--        <p>Summer dress</p>                                            -->
-                            
-                    <!--        <div class="product-options">-->
-                    <!--        <strong>SIZES</strong>-->
-                    <!--        <span>XS, S, M, L, XL, XXL</span>-->
-                    <!--        <strong>COLORS</strong>-->
-                    <!--        <div class="colors">-->
-                    <!--            <div class="c-blue"><span></span></div>-->
-                    <!--            <div class="c-red"><span></span></div>-->
-                    <!--            <div class="c-white"><span></span></div>-->
-                    <!--            <div class="c-green"><span></span></div>-->
-                    <!--        </div>-->
-                    <!--    </div>                       -->
-                    <!--    </div>                         -->
-                    <!--</div>-->
+        <div class="col-md-6">
+            <div class="product large">
+            	<div class="info-large col-md-6">
+            	    <h3>Lole</h3>
+                	<h4>Buy 1 get 1 Free</h4>
+                	<h3>Oct 7 - Oct 10</h3>
+              
+                    <button class="add-cart-large">Add To Cart</button>                          
+                                 
                 </div>
-                
-                <div class="product-back">
-                    <div class="shadow"></div>
-                    <div class="carousel">
-                        <ul class="carousel-container">
-                            <li><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" /></li>
-                        </ul>
-                        <div class="arrows-perspective">
-                            <div class="carouselPrev">
-                                <div class="y"></div>
-                                <div class="x"></div>
-                            </div>
-                            <div class="carouselNext">
-                                <div class="y"></div>
-                                <div class="x"></div>
+                <div class="make3D col-md-6">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>                
+                        <!--<div class="stats">        	-->
+                        <!--    <div class="stats-container">-->
+                        <!--        <span class="product_price">$39</span>-->
+                        <!--        <span class="product_name">FLUTED HEM DRESS</span>    -->
+                        <!--        <p>Summer dress</p>                                            -->
+                                
+                        <!--        <div class="product-options">-->
+                        <!--        <strong>SIZES</strong>-->
+                        <!--        <span>XS, S, M, L, XL, XXL</span>-->
+                        <!--        <strong>COLORS</strong>-->
+                        <!--        <div class="colors">-->
+                        <!--            <div class="c-blue"><span></span></div>-->
+                        <!--            <div class="c-red"><span></span></div>-->
+                        <!--            <div class="c-white"><span></span></div>-->
+                        <!--            <div class="c-green"><span></span></div>-->
+                        <!--        </div>-->
+                        <!--    </div>                       -->
+                        <!--    </div>                         -->
+                        <!--</div>-->
+                    </div>
+                    
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flip-back">
-                        <div class="cy"></div>
-                        <div class="cx"></div>
-                    </div>
-                </div>	  
-            </div>	
-        </div>        
-    </div>
-    
-    <div class="col-md-6">
-        <div class="product large">
-        	<div class="info-large col-md-6">
-        	    <h3>Lole</h3>
-            	<h4>Buy 1 get 1 Free</h4>
-            	<h3>Oct 7 - Oct 10</h3>
-          
-                <button class="add-cart-large">Add To Cart</button>                          
-                             
-            </div>
-            <div class="make3D col-md-6">
-                <div class="product-front">
-                    <div class="shadow"></div>
-                    <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
-                    <div class="image_overlay"></div>
-                    <div class="add_to_cart">Add to cart</div>
-                    <div class="view_gallery">View gallery</div>                
-                    <!--<div class="stats">        	-->
-                    <!--    <div class="stats-container">-->
-                    <!--        <span class="product_price">$39</span>-->
-                    <!--        <span class="product_name">FLUTED HEM DRESS</span>    -->
-                    <!--        <p>Summer dress</p>                                            -->
-                            
-                    <!--        <div class="product-options">-->
-                    <!--        <strong>SIZES</strong>-->
-                    <!--        <span>XS, S, M, L, XL, XXL</span>-->
-                    <!--        <strong>COLORS</strong>-->
-                    <!--        <div class="colors">-->
-                    <!--            <div class="c-blue"><span></span></div>-->
-                    <!--            <div class="c-red"><span></span></div>-->
-                    <!--            <div class="c-white"><span></span></div>-->
-                    <!--            <div class="c-green"><span></span></div>-->
-                    <!--        </div>-->
-                    <!--    </div>                       -->
-                    <!--    </div>                         -->
-                    <!--</div>-->
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>	  
+                </div>	
+            </div>        
+        </div>
+        
+        <div class="col-md-6">
+            <div class="product large">
+            	<div class="info-large col-md-6">
+            	    <h3>Lole</h3>
+                	<h4>Buy 1 get 1 Free</h4>
+                	<h3>Oct 7 - Oct 10</h3>
+              
+                    <button class="add-cart-large">Add To Cart</button>                          
+                                 
                 </div>
-                
-                <div class="product-back">
-                    <div class="shadow"></div>
-                    <div class="carousel">
-                        <ul class="carousel-container">
-                            <li><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" /></li>
-                        </ul>
-                        <div class="arrows-perspective">
-                            <div class="carouselPrev">
-                                <div class="y"></div>
-                                <div class="x"></div>
-                            </div>
-                            <div class="carouselNext">
-                                <div class="y"></div>
-                                <div class="x"></div>
+                <div class="make3D col-md-6">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>                
+                        <!--<div class="stats">        	-->
+                        <!--    <div class="stats-container">-->
+                        <!--        <span class="product_price">$39</span>-->
+                        <!--        <span class="product_name">FLUTED HEM DRESS</span>    -->
+                        <!--        <p>Summer dress</p>                                            -->
+                                
+                        <!--        <div class="product-options">-->
+                        <!--        <strong>SIZES</strong>-->
+                        <!--        <span>XS, S, M, L, XL, XXL</span>-->
+                        <!--        <strong>COLORS</strong>-->
+                        <!--        <div class="colors">-->
+                        <!--            <div class="c-blue"><span></span></div>-->
+                        <!--            <div class="c-red"><span></span></div>-->
+                        <!--            <div class="c-white"><span></span></div>-->
+                        <!--            <div class="c-green"><span></span></div>-->
+                        <!--        </div>-->
+                        <!--    </div>                       -->
+                        <!--    </div>                         -->
+                        <!--</div>-->
+                    </div>
+                    
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="flip-back">
-                        <div class="cy"></div>
-                        <div class="cx"></div>
-                    </div>
-                </div>	  
-            </div>	
-        </div>        
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>	  
+                </div>	
+            </div>        
+        </div>
+        
+        
     </div>
-    
-    
-</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
