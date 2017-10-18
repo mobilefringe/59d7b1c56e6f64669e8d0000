@@ -1072,6 +1072,7 @@ div.sku strong{
             </div>
             <div class="col-md-3">
                 <a href="#" class="show_all_stores">MY BASKET</a>
+                <span class="basket_count"></span>
             </div>
             
         </div>
