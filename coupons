@@ -770,7 +770,7 @@ div.floating-cart{
 div.floating-cart .stats-container{display:none;}
 div.floating-cart .product-front{width:100%; top:0; right:0;}
 div.floating-cart.moveToCart{
-	right: 75px !important;
+	left: 1083.5px !important;
 	top: 55px !important;
 	width: 47px;
 	height: 47px;	
