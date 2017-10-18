@@ -1264,7 +1264,7 @@ div.sku strong{
 		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
 		        $(el).parent().parent().addClass("green_selected_box"); 
 		        $(".basket_number").text(parseInt($(".basket_number").text())+1);
-		        	var img $("#"+$(el).parent().parent().attr("id") +" .product-front img");
+		        	var img $("#"+ $(el).parent().parent().attr("id") +" .product-front img");
 		        var position =$(img).offset();	;//$("#"+$(el).parent().parent().attr("id") +" .product-front img").offset();	
 		  
     			$("body").append('<div class="floating-cart"></div>');		
