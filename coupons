@@ -1018,7 +1018,7 @@ div.sku strong{
                 <a class="active_store_nav" href="">SORT BY DATE</a>
             </div>
             <div class="col-md-3">
-                <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     CATEGORIES
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
