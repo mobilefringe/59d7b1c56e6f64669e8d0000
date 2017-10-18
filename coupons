@@ -1232,6 +1232,7 @@ div.sku strong{
 	});
 	$('#add-to-basket').each(function(i, el){
 		$(el).click(function(){
+		    console.log($("#add-to-basket").attr("checked"));
 		    if($("#add-to-basket").attr("checked") == "false")
 		    {
 		        $("#add-to-basket").attr("checked","true");
