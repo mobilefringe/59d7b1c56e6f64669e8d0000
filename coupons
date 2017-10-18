@@ -913,7 +913,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 
 .info-large h4{
 	/*text-transform:uppercase;*/
-	font-size:28px;
+	font-size:24px;
 	color:#000;
 	font-weight:400;
 	padding:0;
