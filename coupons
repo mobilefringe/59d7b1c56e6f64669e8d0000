@@ -15,6 +15,9 @@
 .green_selected_box {
     border: 4px solid #31897E;
 }
+.basket_count{
+    
+}
 #wrapper{
 	overflow: hidden;
 	height: 1153px;
