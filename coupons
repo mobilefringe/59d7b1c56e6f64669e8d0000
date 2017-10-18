@@ -1313,7 +1313,7 @@ div.sku strong{
 // 				$("#cart .cart-item").last().removeClass("flash");
 // 			}, 10 );
 			
-// 		}, 1000);
+		}, 1000);
 			
 			
 		});
