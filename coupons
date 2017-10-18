@@ -1029,7 +1029,7 @@ div.sku strong{
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="#" id="store_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="#" id="store_dd" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                     STORES
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
