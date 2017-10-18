@@ -978,7 +978,7 @@ div.sku strong{
     font-size: 14px;
 	clear:left;
 	margin-top:20px;
-    font-weight: 700;
+    font-weight: normal.
 	margin-bottom:3px;
 }
 
