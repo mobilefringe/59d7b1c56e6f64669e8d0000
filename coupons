@@ -254,8 +254,8 @@
 	height:220px;
 	background:#fff;
 	position:absolute;
-	left:0px;
-	top:0px;
+	/*left:0px;*/
+	/*top:0px;*/
 	-webkit-transition: all 100ms ease-out; 
        -moz-transition: all 100ms ease-out; 
          -o-transition: all 100ms ease-out; 
