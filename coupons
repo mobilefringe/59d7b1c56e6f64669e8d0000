@@ -847,7 +847,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 
 .product.large{
     background: #F4F4F4;
-	width:639px;
+	/*width:639px;*/
 	margin-bottom:25px;
 	overflow:hidden;
 	-webkit-transition: all 500ms ease-in-out;
