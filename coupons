@@ -1266,18 +1266,18 @@ div.sku strong{
 		        $(".basket_number").text(parseInt($(".basket_number").text())+1);
 		        var position =$("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front").offset();	
 		  
-			$("body").append('<div class="floating-cart"></div>');		
-			var cart = $('div.floating-cart');		
-// 			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
-			
-			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
-			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
-			
-			setTimeout(function(){
-    			$('div.floating-cart').remove();
-    			$("body").removeClass("MakeFloatingCart");
+    			$("body").append('<div class="floating-cart"></div>');		
+    			var cart = $('div.floating-cart');		
+    // 			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
     			
-		    }, 1000);
+    			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
+    			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
+    			
+    			setTimeout(function(){
+        			$('div.floating-cart').remove();
+        			$("body").removeClass("MakeFloatingCart");
+        			
+    		    }, 1000);
 		    } else {
 		        $(el).attr("is_in_cart","false");
 		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
