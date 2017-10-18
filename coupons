@@ -1034,11 +1034,11 @@ div.sku strong{
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
                 <ul  class="dropdown-menu" aria-labelledby="store_dd">
-                <div id="store_list_container"></div>
+                <div id="store_list_container">
                     <script id="store_list_template" type="x-tmpl-mustache/text">
                         <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
                     </script>
-                    
+                  </div>  
                 </ul>
             </div>
             <div class="col-md-3">
