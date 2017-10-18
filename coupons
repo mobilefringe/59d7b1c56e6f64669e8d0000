@@ -1285,7 +1285,7 @@ div.sku strong{
 // 			var cart = $('div.floating-cart');		
 // 			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
 			
-			$('"basket_number').css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
+			$(".basket_number").css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
 			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
 			
 			setTimeout(function(){
