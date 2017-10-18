@@ -930,7 +930,7 @@ div.sku strong{
 	  font-weight: 700;
 	  padding: 10px;
 	  font-family: "Open Sans", sans-serif;
-	  width: 246px;
+	  /*width: 246px;*/
 	  margin-top: 38px;	
 	  -webkit-transition: all 200ms ease-out;
 	   -moz-transition: all 200ms ease-out;
