@@ -1029,7 +1029,15 @@ div.sku strong{
                 </ul>
             </div>
             <div class="col-md-3">
-                <a href="/map">CENTER MAP</a>
+                <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    STORES
+                    <img src="//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
+                </a>
+                <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li href="#" class="show_all_stores">All</li>
+                    <li class="show_cat_stores" data-id="4016">Restaurants & Bars</li>
+                    
+                </ul>
             </div>
             <div class="col-md-3">
                 <span>Sort By: </span>
