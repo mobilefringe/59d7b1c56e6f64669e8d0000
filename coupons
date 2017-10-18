@@ -1270,7 +1270,7 @@ div.sku strong{
 		        $(el).parent().parent().removeClass("green_selected_box");
 		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
 		    }
-		    
+		    console.log()
 		  //  console.log(parseInt($(".basket_number").text()));
 		  //  console.log($(el).parent().parent());
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
