@@ -1236,16 +1236,16 @@ div.sku strong{
 	$('.add-to-basket').each(function(i, el){
 		$(el).click(function(){
 		    
-		    if($("#add-to-basket").attr("is_in_cart") === "false")
+		    if($(".add-to-basket").attr("is_in_cart") === "false")
 		    {
-		        $("#add-to-basket").attr("is_in_cart","true");
-		        $("#add-to-basket").attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
-		        $("#add-to-basket").parent().parent().addClass("green_selected_box");
+		        $(".add-to-basket").attr("is_in_cart","true");
+		        $(".add-to-basket").attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
+		        $(".add-to-basket").parent().parent().addClass("green_selected_box");
 		        
 		    }else {
-		        $("#add-to-basket").attr("is_in_cart","false");
-		        $("#add-to-basket").attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
-		        $("#add-to-basket").parent().parent().removeClass("green_selected_box");
+		        $(".add-to-basket").attr("is_in_cart","false");
+		        $(".add-to-basket").attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
+		        $(".add-to-basket").parent().parent().removeClass("green_selected_box");
 		    }
 		    console.log($("#add-to-basket").parent().parent());
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
