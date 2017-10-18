@@ -1206,7 +1206,7 @@ div.sku strong{
     </div>
     
     
-    <div class="product large">
+    <div class="product large  col-md-6">
     <div class="info-large">
         	<h4>PLEAT PRINTED DRESS</h4>
             <div class="sku">
