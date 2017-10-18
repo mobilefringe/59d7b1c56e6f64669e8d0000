@@ -235,7 +235,7 @@
     transform-style: preserve-3d;
     transition: transform 5s;
 	float:left; 
-	margin-right: 5px;
+	/*margin-right: 23px;*/
 	-webkit-transition: width 500ms ease-in-out;
 	   -moz-transition: width 500ms ease-in-out;
 		-ms-transition: width 500ms ease-in-out;
