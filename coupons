@@ -1319,120 +1319,120 @@ div.sku strong{
 			
 		});
 	})
-	$('.add-cart-large').each(function(i, el){
-		$(el).click(function(){
-			var carousel = $(this).parent().parent().find(".carousel-container");
-			var img =$("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front")// carousel.find('img').eq(carousel.attr("rel"))[0];						
-			var position = $(img).offset();	
+// 	$('.add-cart-large').each(function(i, el){
+// 		$(el).click(function(){
+// 			var carousel = $(this).parent().parent().find(".carousel-container");
+// 			var img =$("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front")// carousel.find('img').eq(carousel.attr("rel"))[0];						
+// 			var position = $(img).offset();	
 
-			var productName = $(this).parent().find('h4').get(0).innerHTML;				
+// 			var productName = $(this).parent().find('h4').get(0).innerHTML;				
 	
-			$("body").append('<div class="floating-cart"></div>');		
-			var cart = $('div.floating-cart');		
-			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
+// 			$("body").append('<div class="floating-cart"></div>');		
+// 			var cart = $('div.floating-cart');		
+// 			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
 			
-			$(cart).css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
-			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
+// 			$(cart).css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
+// 			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
 			
-			setTimeout(function(){
-			$('div.floating-cart').remove();
-			$("body").removeClass("MakeFloatingCart");
+// 			setTimeout(function(){
+// 			$('div.floating-cart').remove();
+// 			$("body").removeClass("MakeFloatingCart");
 
 
-			var cartItem = "<div class='cart-item'>1</div>";			
+// 			var cartItem = "<div class='cart-item'>1</div>";			
 
-			$("#cart .empty").hide();			
-			$("#cart").append(cartItem);
-			$("#checkout").fadeIn(500);
+// 			$("#cart .empty").hide();			
+// 			$("#cart").append(cartItem);
+// 			$("#checkout").fadeIn(500);
 			
-			$("#cart .cart-item").last()
-				.addClass("flash")
-				.find(".delete-item").click(function(){
-					$(this).parent().fadeOut(300, function(){
-						$(this).remove();
-						if($("#cart .cart-item").size() == 0){
-							$("#cart .empty").fadeIn(500);
-							$("#checkout").fadeOut(500);
-						}
-					})
-				});
- 		    setTimeout(function(){
-				$("#cart .cart-item").last().removeClass("flash");
-			}, 10 );
+// 			$("#cart .cart-item").last()
+// 				.addClass("flash")
+// 				.find(".delete-item").click(function(){
+// 					$(this).parent().fadeOut(300, function(){
+// 						$(this).remove();
+// 						if($("#cart .cart-item").size() == 0){
+// 							$("#cart .empty").fadeIn(500);
+// 							$("#checkout").fadeOut(500);
+// 						}
+// 					})
+// 				});
+//  		    setTimeout(function(){
+// 				$("#cart .cart-item").last().removeClass("flash");
+// 			}, 10 );
 			
-		}, 1000);
+// 		}, 1000);
 			
 			
-		});
-	})
+// 		});
+// 	})
 	
-	/* ----  Image Gallery Carousel   ---- */
-	function makeCarousel(el){
+// 	/* ----  Image Gallery Carousel   ---- */
+// 	function makeCarousel(el){
 	
 		
-		var carousel = $(el).find('.carousel ul');
-		var carouselSlideWidth = 315;
-		var carouselWidth = 0;	
-		var isAnimating = false;
-		var currSlide = 0;
-		$(carousel).attr('rel', currSlide);
+// 		var carousel = $(el).find('.carousel ul');
+// 		var carouselSlideWidth = 315;
+// 		var carouselWidth = 0;	
+// 		var isAnimating = false;
+// 		var currSlide = 0;
+// 		$(carousel).attr('rel', currSlide);
 		
-		// building the width of the casousel
-		$(carousel).find('li').each(function(){
-			carouselWidth += carouselSlideWidth;
-		});
-		$(carousel).css('width', carouselWidth);
+// 		// building the width of the casousel
+// 		$(carousel).find('li').each(function(){
+// 			carouselWidth += carouselSlideWidth;
+// 		});
+// 		$(carousel).css('width', carouselWidth);
 		
-		// Load Next Image
-		$(el).find('div.carouselNext').on('click', function(){
-			var currentLeft = Math.abs(parseInt($(carousel).css("left")));
-			var newLeft = currentLeft + carouselSlideWidth;
-			if(newLeft == carouselWidth || isAnimating === true){return;}
-			$(carousel).css({'left': "-" + newLeft + "px",
-								   "transition": "300ms ease-out"
-								 });
-			isAnimating = true;
-			currSlide++;
-			$(carousel).attr('rel', currSlide);
-			setTimeout(function(){isAnimating = false;}, 300);			
-		});
+// 		// Load Next Image
+// 		$(el).find('div.carouselNext').on('click', function(){
+// 			var currentLeft = Math.abs(parseInt($(carousel).css("left")));
+// 			var newLeft = currentLeft + carouselSlideWidth;
+// 			if(newLeft == carouselWidth || isAnimating === true){return;}
+// 			$(carousel).css({'left': "-" + newLeft + "px",
+// 								   "transition": "300ms ease-out"
+// 								 });
+// 			isAnimating = true;
+// 			currSlide++;
+// 			$(carousel).attr('rel', currSlide);
+// 			setTimeout(function(){isAnimating = false;}, 300);			
+// 		});
 		
-		// Load Previous Image
-		$(el).find('div.carouselPrev').on('click', function(){
-			var currentLeft = Math.abs(parseInt($(carousel).css("left")));
-			var newLeft = currentLeft - carouselSlideWidth;
-			if(newLeft < 0  || isAnimating === true){return;}
-			$(carousel).css({'left': "-" + newLeft + "px",
-								   "transition": "300ms ease-out"
-								 });
-			isAnimating = true;
-			currSlide--;
-			$(carousel).attr('rel', currSlide);
-			setTimeout(function(){isAnimating = false;}, 300);						
-		});
-	}
+// 		// Load Previous Image
+// 		$(el).find('div.carouselPrev').on('click', function(){
+// 			var currentLeft = Math.abs(parseInt($(carousel).css("left")));
+// 			var newLeft = currentLeft - carouselSlideWidth;
+// 			if(newLeft < 0  || isAnimating === true){return;}
+// 			$(carousel).css({'left': "-" + newLeft + "px",
+// 								   "transition": "300ms ease-out"
+// 								 });
+// 			isAnimating = true;
+// 			currSlide--;
+// 			$(carousel).attr('rel', currSlide);
+// 			setTimeout(function(){isAnimating = false;}, 300);						
+// 		});
+// 	}
 	
-	$('.sizes a span, .categories a span').each(function(i, el){
-		$(el).append('<span class="x"></span><span class="y"></span>');
+// 	$('.sizes a span, .categories a span').each(function(i, el){
+// 		$(el).append('<span class="x"></span><span class="y"></span>');
 		
-		$(el).parent().on('click', function(){
-			if($(this).hasClass('checked')){				
-				$(el).find('.y').removeClass('animate');	
-				setTimeout(function(){
-					$(el).find('.x').removeClass('animate');							
-				}, 50);	
-				$(this).removeClass('checked');
-				return false;
-			}
+// 		$(el).parent().on('click', function(){
+// 			if($(this).hasClass('checked')){				
+// 				$(el).find('.y').removeClass('animate');	
+// 				setTimeout(function(){
+// 					$(el).find('.x').removeClass('animate');							
+// 				}, 50);	
+// 				$(this).removeClass('checked');
+// 				return false;
+// 			}
 			
-			$(el).find('.x').addClass('animate');		
-			setTimeout(function(){
-				$(el).find('.y').addClass('animate');
-			}, 100);	
-			$(this).addClass('checked');
-			return false;
-		});
-	});
+// 			$(el).find('.x').addClass('animate');		
+// 			setTimeout(function(){
+// 				$(el).find('.y').addClass('animate');
+// 			}, 100);	
+// 			$(this).addClass('checked');
+// 			return false;
+// 		});
+// 	});
 	
 // 	$('.add_to_cart').click(function(){
 // 		var productCard = $(this).parent();
