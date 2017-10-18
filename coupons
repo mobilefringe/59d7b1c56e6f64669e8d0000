@@ -933,17 +933,17 @@ div.sku strong{
 }
 
 .add-cart-large{
-	  border: 3px solid #000;
-	  font-size: 17px;
-	  background: #fff;
-	  text-transform: uppercase;
-	  font-weight: 700;
-	  padding: 10px;
-	  font-family: "Open Sans", sans-serif;
-	  /*width: 246px;*/
-	  /*margin-top: 38px;	*/
-	  /*margin-top: 29px;*/
-	  position: absolute;
+    border: 3px solid #000;
+    font-size: 17px;
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    /*width: 246px;*/
+    /*margin-top: 38px;	*/
+    /*margin-top: 29px;*/
+    position: absolute;
     bottom: 0;
     left: 50%;
     transform: translate(-50%,0%);
