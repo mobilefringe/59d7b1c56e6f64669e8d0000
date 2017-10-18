@@ -281,6 +281,7 @@ div.large .product-back{
 	/*position:absolute;    */
 	/*top:10px;*/
 	/*left:10px;	*/
+	position:relative;
 	overflow:hidden;
     transform-style: preserve-3d;
 	-webkit-transition:  100ms ease-out; 
