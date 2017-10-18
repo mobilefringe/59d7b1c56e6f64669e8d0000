@@ -1568,5 +1568,10 @@ div.sku strong{
     $(document).ready(function(e){
         init(e);
 
-    })
+    });
+    function renderAll(){
+        $('.custom_backdrop').remove();
+    $('.yield').fadeIn();
+});
+    }
 </script>
