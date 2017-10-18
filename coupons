@@ -1281,7 +1281,7 @@ div.sku strong{
 
 // 			var productName = $(this).parent().find('h4').get(0).innerHTML;				
 	
-// 			$("body").append('<div class="floating-cart"></div>');		
+			$("body").append('<div class="floating-cart"></div>');		
 // 			var cart = $('div.floating-cart');		
 // 			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
 			
