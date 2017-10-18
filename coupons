@@ -1285,7 +1285,7 @@ div.sku strong{
 		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
 		    }
 		    //getting the logo image
-		  //  console.log($("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front").offset());
+		    console.log($("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front").offset());
 		    
 			
 			
