@@ -31,8 +31,8 @@
     color:#fff;
     z-index:3;
     position: absolute;
-    right: 30px;
-    top: -2px;
+    right: 38px;
+    top: 0px;
     margin:0;
 }
 #wrapper{
