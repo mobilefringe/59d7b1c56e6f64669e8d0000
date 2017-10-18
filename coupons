@@ -782,7 +782,7 @@ div.floating-cart.moveToCart{
 }
 body.MakeFloatingCart div.floating-cart.moveToCart{	
 	left: 1083.5px !important;
-	top: 140px !important;
+	top: 310px !important;
 	width: 21px;
 	height: 22px;
 	box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0);
