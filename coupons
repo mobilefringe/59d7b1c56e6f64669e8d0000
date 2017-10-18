@@ -1275,7 +1275,7 @@ div.sku strong{
 // 		}, 1000);
 			
 			
-// 		});
+		});
 	})
 	$('.add-cart-large').each(function(i, el){
 		$(el).click(function(){
