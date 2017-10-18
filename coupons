@@ -1232,6 +1232,7 @@ div.sku strong{
 	});
 	$('#add-to-basket').each(function(i, el){
 		$(el).click(function(){
+		    $("#add-to-basket").addClass("checked")
 		    $("#add-to-basket").attr("src","http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
 // 			var img = carousel.find('img').eq(carousel.attr("rel"))[0];						
