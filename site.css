@@ -83,3 +83,6 @@ $animation_color: #a5afb0;
 .padding_5 {
     padding: 5px;
 }
+.uppercase {
+    text-transform:uppercase;
+}
