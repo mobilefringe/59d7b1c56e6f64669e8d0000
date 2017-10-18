@@ -1102,7 +1102,7 @@ div.sku strong{
                 <div class="info-large col-md-6">
             	    <p>Lole</p>
                 	<h4>Buy 1 get 1 Free</h4>
-                	<h3>Oct 7 - Oct 10</h3>
+                	<p>Oct 7 - Oct 10</p>
               
                     <button class="add-cart-large">Add To Cart</button>                          
                                  
