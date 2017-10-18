@@ -1271,7 +1271,7 @@ div.sku strong{
 		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
 		    }
 		    //getting the logo image
-		    console.log($($(el).parent().parent().attr("class").replace(/ /g, '.'); +" .product-front"));
+		    console.log($($(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front"));
 		  //  console.log(parseInt($(".basket_number").text()));
 		  //  console.log($(el).parent().parent());
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
