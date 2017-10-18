@@ -1322,7 +1322,7 @@ div.sku strong{
 	$('.add-cart-large').each(function(i, el){
 		$(el).click(function(){
 			var carousel = $(this).parent().parent().find(".carousel-container");
-			var img = carousel.find('img').eq(carousel.attr("rel"))[0];						
+			var img =$("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front")// carousel.find('img').eq(carousel.attr("rel"))[0];						
 			var position = $(img).offset();	
 
 			var productName = $(this).parent().find('h4').get(0).innerHTML;				
