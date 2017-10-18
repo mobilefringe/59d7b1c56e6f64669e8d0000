@@ -1233,7 +1233,7 @@ div.sku strong{
 	
 		makeCarousel(el);
 	});
-	$('#add-to-basket').each(function(i, el){
+	$('.add-to-basket').each(function(i, el){
 		$(el).click(function(){
 		    
 		    if($("#add-to-basket").attr("is_in_cart") === "false")
