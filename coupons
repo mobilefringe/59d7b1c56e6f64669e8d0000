@@ -1086,7 +1086,8 @@ div.sku strong{
                     </div>
                 </div>	
                 <div class="info-large col-md-6">
-                    <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png" class="basket_image" alt="" id="add-to-basket">
+                    <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png" class="basket_image" alt="" id="add-to-basket" checked="false
+                    >
             	    <p>Lole</p>
                 	<h4>Buy 1 get 1 Free</h4>
                 	<p>Oct 7 - Oct 10</p>
