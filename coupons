@@ -942,7 +942,11 @@ div.sku strong{
 	  font-family: "Open Sans", sans-serif;
 	  /*width: 246px;*/
 	  /*margin-top: 38px;	*/
-	  margin-top: 29px;
+	  /*margin-top: 29px;*/
+	  position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
 	  -webkit-transition: all 200ms ease-out;
 	   -moz-transition: all 200ms ease-out;
 		-ms-transition: all 200ms ease-out;
