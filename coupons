@@ -1049,8 +1049,7 @@ div.sku strong{
     </div>
 </div>
 <div id="wrapper">
-<div class="cart-icon-top">
-</div>
+    <div class="cart-icon-top"></div>
 
 <div class="cart-icon-bottom">
 </div>
