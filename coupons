@@ -21,6 +21,10 @@
     /*background-repeat:no-repeat;*/
     display:inline;
 }
+.basket_count{
+    width:20px;
+}
+
 #wrapper{
 	overflow: hidden;
 	height: 1153px;
