@@ -6,6 +6,12 @@
 /*	font-family: "Open Sans", sans-serif; */
 /*	overflow:hidden;	*/
 /*}*/
+.basket_image {
+        position: absolute;
+    width: 25px;
+    right: 0;
+    top: 0;
+}
 #wrapper{
 	overflow: hidden;
 	height: 1153px;
