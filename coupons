@@ -941,7 +941,8 @@ div.sku strong{
 	  padding: 10px;
 	  font-family: "Open Sans", sans-serif;
 	  /*width: 246px;*/
-	  margin-top: 38px;	
+	  /*margin-top: 38px;	*/
+	  margin-top: 29px;
 	  -webkit-transition: all 200ms ease-out;
 	   -moz-transition: all 200ms ease-out;
 		-ms-transition: all 200ms ease-out;
