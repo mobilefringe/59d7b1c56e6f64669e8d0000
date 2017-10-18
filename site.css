@@ -86,6 +86,6 @@ $animation_color: #a5afb0;
 .uppercase {
     text-transform:uppercase;
 }
-.store_nav .col-md-3:nth-child(3) {
+.coupons_container.store_nav .col-md-3:nth-child(3) {
     border-left: 1px solid #979797;
 }
