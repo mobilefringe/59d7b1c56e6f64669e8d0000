@@ -1238,7 +1238,7 @@ div.sku strong{
 		        $("#add-to-basket").attr("src","http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
 		    }else {
 		        $("#add-to-basket").attr("checked","false");
-		        $("#add-to-basket").attr("src","http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
+		        $("#add-to-basket").attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
 		    }
 		    
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
