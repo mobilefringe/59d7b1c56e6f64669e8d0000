@@ -1272,20 +1272,7 @@ div.sku strong{
 		    }
 		    //getting the logo image
 		  //  console.log($("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front").offset());
-		    var position =$("."+$(el).parent().parent().attr("class").replace(/ /g, '.') +" .product-front").offset();	
-		  
-			$("body").append('<div class="floating-cart"></div>');		
-			var cart = $('div.floating-cart');		
-// 			$("<img src='"+img.src+"' class='floating-image-large' />").appendTo(cart);
-			
-			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
-			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
-			
-			setTimeout(function(){
-    			$('div.floating-cart').remove();
-    			$("body").removeClass("MakeFloatingCart");
-    			
-		    }, 1000);
+		    
 			
 			
 		});
