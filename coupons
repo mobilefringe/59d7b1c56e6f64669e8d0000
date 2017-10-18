@@ -884,7 +884,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
  		    transition: all 300ms ease-out;
 }
 .large .info-large{
-	left: 350px;
+	/*left: 350px;*/
 	-webkit-transition: all 300ms ease-out;
 	   -moz-transition: all 300ms ease-out;
 		-ms-transition: all 300ms ease-out;
