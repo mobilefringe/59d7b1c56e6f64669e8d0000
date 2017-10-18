@@ -1235,7 +1235,7 @@ div.sku strong{
 	});
 	$('#add-to-basket').each(function(i, el){
 		$(el).click(function(){
-		    console.log($("#add-to-basket").parent().parent());
+		    
 		    if($("#add-to-basket").attr("is_in_cart") === "false")
 		    {
 		        $("#add-to-basket").attr("is_in_cart","true");
