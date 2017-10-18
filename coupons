@@ -757,7 +757,7 @@ div.shadow{
 div.floating-cart{
 	position:absolute;
 	top:0;
-	left:0; 
+	right:0; 
 	width:315px;	
 	height:250px;
 	background:#fff;
