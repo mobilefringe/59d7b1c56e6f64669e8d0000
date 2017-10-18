@@ -28,7 +28,7 @@
     top: -2px;
 }
 .basket_count .backet_number{
-    
+    z-index:3;
     position: absolute;
     right: 30px;
     top: -2px;
