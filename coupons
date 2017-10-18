@@ -933,7 +933,7 @@ div.sku strong{
 }
 
 .add-cart-large{
-    border: 3px solid #000;
+    border: 2px solid #000;
     font-size: 17px;
     background: #fff;
     text-transform: uppercase;
