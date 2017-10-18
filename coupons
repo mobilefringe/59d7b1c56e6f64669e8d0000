@@ -1290,7 +1290,7 @@ div.sku strong{
 			
 			setTimeout(function(){
 // 			$('div.floating-cart').remove();
-			$("body").removeClass("MakeFloatingCart");
+// 			$("body").removeClass("MakeFloatingCart");
 
 
 // 			var cartItem = "<div class='cart-item'>1</div>";			
