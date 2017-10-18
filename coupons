@@ -1123,7 +1123,7 @@ div.sku strong{
                 	<h4>Buy 1 get 1 Free</h4>
                 	<p>Oct 7 - Oct 10</p>
               
-                    <button class="add-cart-large">View Details</button>                          
+                    <button class="add-cart-large" href="coupon_details">View Details</button>                          
                                  
                 </div>
             </div>        
