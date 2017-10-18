@@ -971,7 +971,7 @@ div.sku strong{
  		    transition: all 200ms ease-out;
 			cursor:pointer;
 }
-.info-large h3{
+.info-large p{
     letter-spacing: 1px;
     color: #262626;
     text-transform: uppercase;
