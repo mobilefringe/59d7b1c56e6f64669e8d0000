@@ -133,7 +133,7 @@
             printPage();
         });
         $(".add_to_basket").click(function(e){
-            var item = $.grep(machineIds, function(item) {
+            var item = $.grep(selected_coupon_id, function(item) {
                 return item.MachineID == index;
             });
             
