@@ -142,7 +142,7 @@
     function printPage() {
         var w = window.open();
     
-        var headers =  $("#headers").html();
+        var headers = $(".coupon_detail h4").html();
         var field= $(".coupon_image").html();
         var field2= $(".coupon_detail h4").html();
     
