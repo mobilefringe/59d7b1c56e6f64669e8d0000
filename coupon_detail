@@ -78,7 +78,7 @@
                 </div>
                 <div class="row coupon_detail">
                     <div class="col-md-8">
-                        
+                        <h4>Buy 1 get 1 Free</h4>
                     </div>
                     <div class="col-md-4">
                         <a class="add-cart-large" href="/coupon_detail">View Details</a>
