@@ -141,7 +141,7 @@
             });
             
             if (item != null && item != undefined && item.length > 0) {
-                alert("value is Array!");
+                // alert("value is Array!");
             }
         });
         loadMallDataCached(renderPage);
