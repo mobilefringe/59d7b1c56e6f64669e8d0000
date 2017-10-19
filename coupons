@@ -1195,110 +1195,110 @@ div.sku strong{
       $('.colors-large a').click(function(){return false;});
 	
 	
-	$('.product').each(function(i, el){					
-
-		// Lift card and show stats on Mouseover
-// 		$(el).find('.make3D').hover(function(){
-// 				$(this).parent().css('z-index', "20");
-// 				$(this).addClass('animate');
-// 				$(this).find('div.carouselNext, div.carouselPrev').addClass('visible');			
-// 			 }, function(){
-// 				$(this).removeClass('animate');			
-// 				$(this).parent().css('z-index', "1");
-// 				$(this).find('div.carouselNext, div.carouselPrev').removeClass('visible');
-// 		});	
-		
-		// Flip card to the back side
-		$(el).find('.view_gallery').click(function(){	
-			
-			$(el).find('div.carouselNext, div.carouselPrev').removeClass('visible');
-			$(el).find('.make3D').addClass('flip-10');			
-			setTimeout(function(){					
-			$(el).find('.make3D').removeClass('flip-10').addClass('flip90').find('div.shadow').show().fadeTo( 80 , 1, function(){
-					$(el).find('.product-front, .product-front div.shadow').hide();															
-				});
-			}, 50);
-			
-			setTimeout(function(){
-				$(el).find('.make3D').removeClass('flip90').addClass('flip190');
-				$(el).find('.product-back').show().find('div.shadow').show().fadeTo( 90 , 0);
-				setTimeout(function(){				
-					$(el).find('.make3D').removeClass('flip190').addClass('flip180').find('div.shadow').hide();						
-					setTimeout(function(){
-						$(el).find('.make3D').css('transition', '100ms ease-out');			
-						$(el).find('.cx, .cy').addClass('s1');
-						setTimeout(function(){$(el).find('.cx, .cy').addClass('s2');}, 100);
-						setTimeout(function(){$(el).find('.cx, .cy').addClass('s3');}, 200);				
-						$(el).find('div.carouselNext, div.carouselPrev').addClass('visible');				
-					}, 100);
-				}, 100);			
-			}, 150);			
-		});			
-		
-		// Flip card back to the front side
-		$(el).find('.flip-back').click(function(){		
-			
-			$(el).find('.make3D').removeClass('flip180').addClass('flip190');
-			setTimeout(function(){
-				$(el).find('.make3D').removeClass('flip190').addClass('flip90');
-		
-				$(el).find('.product-back div.shadow').css('opacity', 0).fadeTo( 100 , 1, function(){
-					$(el).find('.product-back, .product-back div.shadow').hide();
-					$(el).find('.product-front, .product-front div.shadow').show();
-				});
-			}, 50);
-			
-			setTimeout(function(){
-				$(el).find('.make3D').removeClass('flip90').addClass('flip-10');
-				$(el).find('.product-front div.shadow').show().fadeTo( 100 , 0);
-				setTimeout(function(){						
-					$(el).find('.product-front div.shadow').hide();
-					$(el).find('.make3D').removeClass('flip-10').css('transition', '100ms ease-out');		
-					$(el).find('.cx, .cy').removeClass('s1 s2 s3');			
-				}, 100);			
-			}, 150);			
-			
-		});				
-	
-// 		makeCarousel(el);
-	});
-	$('.add-to-basket').each(function(i, el){
-		$(el).click(function(){
-		    if($(el).attr("is_in_cart") === "false") {
-		        var current_coupon_id = (el).parent().parent().attr("id");
-		        $(el).attr("is_in_cart","true");
-		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
-		        $(el).parent().parent().addClass("green_selected_box"); 
-		        $(".basket_number").text(parseInt($(".basket_number").text())+1);
-		        var img = $("#"+ current_coupon_id +" .product-front img");
-		        var position =$(img).offset();	;//$("#"+$(el).parent().parent().attr("id") +" .product-front img").offset();	
-		        console.log("img",img, "img src",img.attr("src"));
-    			$("body").append('<div class="floating-cart"></div>');		
-    			var cart = $('div.floating-cart');		
-    			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
+    	$('.product').each(function(i, el){					
+    
+    		// Lift card and show stats on Mouseover
+    // 		$(el).find('.make3D').hover(function(){
+    // 				$(this).parent().css('z-index', "20");
+    // 				$(this).addClass('animate');
+    // 				$(this).find('div.carouselNext, div.carouselPrev').addClass('visible');			
+    // 			 }, function(){
+    // 				$(this).removeClass('animate');			
+    // 				$(this).parent().css('z-index', "1");
+    // 				$(this).find('div.carouselNext, div.carouselPrev').removeClass('visible');
+    // 		});	
+    		
+    		// Flip card to the back side
+    		$(el).find('.view_gallery').click(function(){	
     			
-    			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
-    			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
+    			$(el).find('div.carouselNext, div.carouselPrev').removeClass('visible');
+    			$(el).find('.make3D').addClass('flip-10');			
+    			setTimeout(function(){					
+    			$(el).find('.make3D').removeClass('flip-10').addClass('flip90').find('div.shadow').show().fadeTo( 80 , 1, function(){
+    					$(el).find('.product-front, .product-front div.shadow').hide();															
+    				});
+    			}, 50);
     			
     			setTimeout(function(){
-        			$('div.floating-cart').remove();
-        			$("body").removeClass("MakeFloatingCart");
+    				$(el).find('.make3D').removeClass('flip90').addClass('flip190');
+    				$(el).find('.product-back').show().find('div.shadow').show().fadeTo( 90 , 0);
+    				setTimeout(function(){				
+    					$(el).find('.make3D').removeClass('flip190').addClass('flip180').find('div.shadow').hide();						
+    					setTimeout(function(){
+    						$(el).find('.make3D').css('transition', '100ms ease-out');			
+    						$(el).find('.cx, .cy').addClass('s1');
+    						setTimeout(function(){$(el).find('.cx, .cy').addClass('s2');}, 100);
+    						setTimeout(function(){$(el).find('.cx, .cy').addClass('s3');}, 200);				
+    						$(el).find('div.carouselNext, div.carouselPrev').addClass('visible');				
+    					}, 100);
+    				}, 100);			
+    			}, 150);			
+    		});			
+    		
+    		// Flip card back to the front side
+    		$(el).find('.flip-back').click(function(){		
+    			
+    			$(el).find('.make3D').removeClass('flip180').addClass('flip190');
+    			setTimeout(function(){
+    				$(el).find('.make3D').removeClass('flip190').addClass('flip90');
+    		
+    				$(el).find('.product-back div.shadow').css('opacity', 0).fadeTo( 100 , 1, function(){
+    					$(el).find('.product-back, .product-back div.shadow').hide();
+    					$(el).find('.product-front, .product-front div.shadow').show();
+    				});
+    			}, 50);
+    			
+    			setTimeout(function(){
+    				$(el).find('.make3D').removeClass('flip90').addClass('flip-10');
+    				$(el).find('.product-front div.shadow').show().fadeTo( 100 , 0);
+    				setTimeout(function(){						
+    					$(el).find('.product-front div.shadow').hide();
+    					$(el).find('.make3D').removeClass('flip-10').css('transition', '100ms ease-out');		
+    					$(el).find('.cx, .cy').removeClass('s1 s2 s3');			
+    				}, 100);			
+    			}, 150);			
+    			
+    		});				
+    	
+    // 		makeCarousel(el);
+    	});
+    	$('.add-to-basket').each(function(i, el){
+    		$(el).click(function(){
+    		    if($(el).attr("is_in_cart") === "false") {
+    		        var current_coupon_id = (el).parent().parent().attr("id");
+    		        $(el).attr("is_in_cart","true");
+    		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
+    		        $(el).parent().parent().addClass("green_selected_box"); 
+    		        $(".basket_number").text(parseInt($(".basket_number").text())+1);
+    		        var img = $("#"+ current_coupon_id +" .product-front img");
+    		        var position =$(img).offset();	;//$("#"+$(el).parent().parent().attr("id") +" .product-front img").offset();	
+    		        console.log("img",img, "img src",img.attr("src"));
+        			$("body").append('<div class="floating-cart"></div>');		
+        			var cart = $('div.floating-cart');		
+        			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
         			
-    		    }, 1000);
-    		    localStorage['coupons_id'] = JSON.stringify(myVar);
-		    } else {
-		        $(el).attr("is_in_cart","false");
-		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
-		        $(el).parent().parent().removeClass("green_selected_box");
-		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
-		    }
-		    //getting the logo image
-		  //  console.log($("#"+$(el).parent().parent().attr("id") +" .product-front"));
-		    
-			
-			
-		});
-	})
+        			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
+        			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
+        			
+        			setTimeout(function(){
+            			$('div.floating-cart').remove();
+            			$("body").removeClass("MakeFloatingCart");
+            			
+        		    }, 1000);
+        		    localStorage['coupons_id'] = JSON.stringify(myVar);
+    		    } else {
+    		        $(el).attr("is_in_cart","false");
+    		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
+    		        $(el).parent().parent().removeClass("green_selected_box");
+    		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
+    		    }
+    		    //getting the logo image
+    		  //  console.log($("#"+$(el).parent().parent().attr("id") +" .product-front"));
+    		    
+    			
+    			
+    		});
+    	})
 // 	$('.add-cart-large').each(function(i, el){
 // 		$(el).click(function(){
 // 			var carousel = $(this).parent().parent().find(".carousel-container");
