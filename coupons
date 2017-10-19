@@ -1309,7 +1309,7 @@ div.sku strong{
     		    }
     		    //getting the logo image
     		  //  console.log($("#"+$(el).parent().parent().attr("id") +" .product-front"));
-    		    console.log(selected_coupon_id);
+    		    
     			//add updated coupon list to localstorage
     			localStorage['coupon_ids'] = JSON.stringify(selected_coupon_id);
     			console.log(localStorage['coupon_ids']);
