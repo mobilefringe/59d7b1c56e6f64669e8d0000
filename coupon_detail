@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p>{{store_name}} | {{dates}}</p><!--<p>{{store_name}} | {{dates}}</p>-->
+                        <p>Lole | Oct 7 - Oct 10</p><!--<p>{{store_name}} | {{dates}}</p>-->
                     </div>
                 </div>
                 
