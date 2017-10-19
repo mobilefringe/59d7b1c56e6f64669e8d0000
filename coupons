@@ -1202,7 +1202,7 @@ div.sku strong{
     		return false;
     	});
       
-      $('.colors-large a').click(function(){return false;});
+        $('.colors-large a').click(function(){return false;});
 	
 	
     	$('.product').each(function(i, el){					
