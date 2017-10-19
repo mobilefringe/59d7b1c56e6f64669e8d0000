@@ -97,9 +97,10 @@
                     </div>
                     <div class="row social_icons">
                         <p>Share the Coupon</p>
-                        <div class="social share_fb"></div>
+                        <a href="http://www.facebook.com/sharer.php?u={{main_host}}/promotions/{{slug}}"></a><div class="social share_fb"></div>
                         <div class="social share_tw"></div>
                         <div class="social share_link"></div>
+                        
                         <!--<span class=""><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508432251000/social_fb_orange.png" class="" alt=""></span>-->
                         <!--<span><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508432272000/social_twitter_orange.png" class="" alt=""></span>-->
                         <!--<span><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508432468000/social_link_orange.png" class="" alt=""></span>-->
