@@ -77,7 +77,15 @@
                     <!-- <img src="{{event_image_url_abs}}" class="details_image" style="{{promo_image}}" />-->
                 </div>
                 <div class="coupon_detail">
-                    
+                    <div class="row ">
+                    <div class="col-md-6">
+                        <h4>Buy 1 get 1 Free</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="dets_btn" href="">Add to Basket</a>
+                        <a class="dets_btn print_btn" href="">Print Coupon</a>
+                    </div>
+                </div>
                 </div>
                 
                 <!--<p class="colored_link">{{name}}</p>-->
