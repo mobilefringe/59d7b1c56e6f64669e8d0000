@@ -1157,6 +1157,9 @@ div.sku strong{
 <script>
     $(document).ready(function(){
         selected_coupon_id = {};
+        var stored_coupon_ids = localStorage['coupon_ids'];
+        if (stored_coupon_ids) 
+            selected_coupon_id = JSON.parse(stored_coupon_ids);
     	$(".largeGrid").click(function(){											
             $(this).find('a').addClass('active');
             $('.smallGrid a').removeClass('active');
