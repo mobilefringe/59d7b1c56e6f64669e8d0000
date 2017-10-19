@@ -82,7 +82,7 @@
                             <h4>Buy 1 get 1 Free</h4>
                         </div>
                         <div class="col-md-6">
-                            <a class="dets_btn add_to_basket" href="">Add to Basket</a>
+                            <a class="dets_btn add_to_basket">Add to Basket</a>
                             <a class="dets_btn print_btn" href="">Print Coupon</a>
                         </div>
                     </div>
