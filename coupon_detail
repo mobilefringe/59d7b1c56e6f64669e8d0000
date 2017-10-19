@@ -25,7 +25,7 @@
         init(e);
         
         var stored = localStorage['myKey'];
-if (stored) myVar = JSON.parse(stored);
+        if (stored) myVar = JSON.parse(stored);
         
         loadMallDataCached(renderPage);
     })
