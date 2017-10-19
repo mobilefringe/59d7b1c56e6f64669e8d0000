@@ -133,7 +133,13 @@
             printPage();
         });
         $(".add_to_basket").click(function(e){
+            var item = $.grep(machineIds, function(item) {
+                return item.MachineID == index;
+            });
             
+            if (item.length) {
+                alert("value is Array!");
+            }
         });
         loadMallDataCached(renderPage);
     })
