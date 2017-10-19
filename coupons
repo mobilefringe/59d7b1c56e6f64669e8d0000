@@ -1284,6 +1284,7 @@ div.sku strong{
         			$("body").removeClass("MakeFloatingCart");
         			
     		    }, 1000);
+    		    localStorage['coupons_id'] = JSON.stringify(myVar);
 		    } else {
 		        $(el).attr("is_in_cart","false");
 		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
