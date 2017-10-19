@@ -73,7 +73,6 @@
             <!--<script id="event_details_template" type="x-tmpl-mustache/text">-->
                 <!--<a href="/events" class="back_to_list"><i class="fa fa-chevron-left"></i> &nbsp;Back to Events</a>-->
                 <div>
-                    
                     <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
                     <!-- <img src="{{event_image_url_abs}}" class="details_image" style="{{promo_image}}" />-->
                 </div>
