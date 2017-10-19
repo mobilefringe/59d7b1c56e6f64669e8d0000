@@ -129,7 +129,7 @@
              $(".basket_number").text(Object.keys(selected_coupon_id).length);
         }
         $(".print_btn").click(function(e){
-            
+            printPage
         })
         loadMallDataCached(renderPage);
     })
