@@ -1322,6 +1322,7 @@ div.sku strong{
         function updatePage (){
             // selected_coupon_id;
             
+            $(".basket_number").text(Object.keys(selected_coupon_id).length); 
             $("#selected_coupon_id .add-to-basket").attr("is_in_cart","true");
 	        $("#selected_coupon_id .add-to-basket").attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
 	        $("#selected_coupon_id").addClass("green_selected_box"); 
