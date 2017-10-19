@@ -86,7 +86,9 @@
                             <a class="dets_btn print_btn" href="">Print Coupon</a>
                         </div>
                     </div>
-                    <div class="row"></div>
+                    <div class="row">
+                        
+                    </div>
                 </div>
                 
                 <!--<p class="colored_link">{{name}}</p>-->
