@@ -1276,7 +1276,7 @@ div.sku strong{
         			$("body").append('<div class="floating-cart"></div>');		
         			var cart = $('div.floating-cart');		
         			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
-        			
+        			selected_coupon_id.push(current_coupon_id);
         			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
         			
