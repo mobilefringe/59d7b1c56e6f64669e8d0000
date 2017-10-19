@@ -1294,7 +1294,7 @@ div.sku strong{
     		        $(el).parent().parent().removeClass("green_selected_box");
     		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
     		        $.grep(arr, function( val, i ) {
-                        return (val !== );
+                        return (val !== current_coupon_id);
                     });
     		    }
     		    //getting the logo image
