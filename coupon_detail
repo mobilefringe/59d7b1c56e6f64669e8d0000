@@ -25,7 +25,8 @@
         init(e);
         
         var stored_coupon_ids = localStorage['coupon_ids'];
-        if (stored_coupon_ids) stored_coupon_ids = JSON.parse(stored_coupon_ids);
+        if (stored_coupon_ids) 
+            stored_coupon_ids = JSON.parse(stored_coupon_ids);
         
         loadMallDataCached(renderPage);
     })
