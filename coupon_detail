@@ -81,8 +81,8 @@
                         <h4>Buy 1 get 1 Free</h4>
                     </div>
                     <div class="col-md-4">
-                        <a class="add-cart-large" href="/coupon_detail">View Details</a>
-                        <a class="add-cart-large" href="/coupon_detail">View Details</a>
+                        <a class="add-cart-large" href="">View Details</a>
+                        <a class="add-cart-large" href="">View Details</a>
                     </div>
                 </div>
                 <!--<p class="colored_link">{{name}}</p>-->
