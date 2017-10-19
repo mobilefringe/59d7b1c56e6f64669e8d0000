@@ -1292,7 +1292,7 @@ div.sku strong{
     		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
     		        $(el).parent().parent().removeClass("green_selected_box");
     		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
-    		        $.grep(arr, function( n, i ) {
+    		        $.grep(arr, function( val, i ) {
                         return ( n !== 5 && i > 4 );
                     });
     		    }
