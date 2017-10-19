@@ -1304,7 +1304,7 @@ div.sku strong{
     		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
     		        
     		        //remove coupon from list variable
-    		        selected_coupon_id = $.grep(arr, function( val, i ) {
+    		        selected_coupon_id = $.grep(selected_coupon_id, function( val, i ) {
                         return (val !== current_coupon_id);
                     });
     		    }
