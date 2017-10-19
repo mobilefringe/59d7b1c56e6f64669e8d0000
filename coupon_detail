@@ -83,7 +83,7 @@
                         </div>
                         <div class="col-md-6">
                             <a class="dets_btn add_to_basket">Add to Basket</a>
-                            <a class="dets_btn print_btn" href="">Print Coupon</a>
+                            <a class="dets_btn print_btn">Print Coupon</a>
                         </div>
                     </div>
                     <div class="row coupon_store_date">
