@@ -1160,6 +1160,9 @@ div.sku strong{
         var cache_coupon_ids = localStorage['coupon_ids'];
         if (cache_coupon_ids) 
             selected_coupon_id = JSON.parse(cache_coupon_ids);
+            
+            
+            
     	$(".largeGrid").click(function(){											
             $(this).find('a').addClass('active');
             $('.smallGrid a').removeClass('active');
