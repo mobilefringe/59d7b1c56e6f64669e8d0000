@@ -24,7 +24,7 @@
     $(document).ready(function(e){
         init(e);
         
-        var stored = localStorage['coupon_ids'];
+        var stored_coupon_ids = localStorage['coupon_ids'];
         if (stored) myVar = JSON.parse(stored);
         
         loadMallDataCached(renderPage);
