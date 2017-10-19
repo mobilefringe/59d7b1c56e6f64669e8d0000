@@ -1161,7 +1161,8 @@ div.sku strong{
         if (cache_coupon_ids) {
             selected_coupon_id = JSON.parse(cache_coupon_ids);
             console.log(selected_coupon_id);
-            $(".basket_number").text(Object.keys(selected_coupon_id).length);   
+            $(".basket_number").text(Object.keys(selected_coupon_id).length); 
+            updatePage();
         }
             
             
