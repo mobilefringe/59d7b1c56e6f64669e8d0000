@@ -1297,7 +1297,7 @@ div.sku strong{
     		  //  console.log($("#"+$(el).parent().parent().attr("id") +" .product-front"));
     		    
     			
-    			localStorage['coupons_id'] = JSON.stringify(myVar);
+    			localStorage['coupon_ids'] = JSON.stringify(myVar);
     		});
     	})
 // 	$('.add-cart-large').each(function(i, el){
