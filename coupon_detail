@@ -140,7 +140,7 @@
                 return item == current_coupon_id;
             });
             
-            if (item.length) {
+            if (item.length > 0) {
                 alert("value is Array!");
             }
         });
