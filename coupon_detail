@@ -143,7 +143,7 @@
         var w = window.open();
     
         var headers =  $("#headers").html();
-        var field= $("#field1").html();
+        var field= $(".coupon_image").html();
         var field2= $("#field2").html();
     
         var html = "<!DOCTYPE HTML>";
@@ -160,5 +160,5 @@
         w.document.write(html);
         w.window.print();
         w.document.close();
-    };
+    }
 </script>
