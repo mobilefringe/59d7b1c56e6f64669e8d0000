@@ -89,6 +89,9 @@
                     <div class="row">
                         <p>Lole | Oct 7 - Oct 10</p><!--<p>{{store_name}} | {{dates}}</p>-->
                     </div>
+                    <div class="row">
+                        
+                    </div>
                 </div>
                 
                 <!--<p class="colored_link">{{name}}</p>-->
