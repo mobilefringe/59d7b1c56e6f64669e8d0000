@@ -129,7 +129,7 @@
              $(".basket_number").text(Object.keys(selected_coupon_id).length);
         }
         $(".print_btn").click(function(e){
-            printPage();
+            printPage()
         })
         loadMallDataCached(renderPage);
     })
@@ -142,7 +142,7 @@
         show_content();
     }
     function printPage() {
-        var w = windo();
+        var w = window.open();
     
         var headers = $(".coupon_title").html();
         var field= $(".coupon_image").html();
