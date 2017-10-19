@@ -134,7 +134,7 @@
         });
         $(".add_to_basket").click(function(e){
             var item = $.grep(selected_coupon_id, function(item) {
-                return item.MachineID == index;
+                return item == index;
             });
             
             if (item.length) {
