@@ -1313,7 +1313,7 @@ div.sku strong{
     		    
     			//add updated coupon list to localstorage
     // 			localStorage['coupon_ids'] = JSON.stringify(selected_coupon_id);
-    			console.log(localStorage['coupon_ids']);
+    // 			console.log(localStorage['coupon_ids']);
     		});
     	})
 // 	$('.add-cart-large').each(function(i, el){
