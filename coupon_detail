@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-6">
                         <a class="dets_btn" href="">Add to Basket</a>
-                        <a class="print_btn" href="">View Details</a>
+                        <a class="print_btn" href="">Print Coupon</a>
                     </div>
                 </div>
                 <!--<p class="colored_link">{{name}}</p>-->
