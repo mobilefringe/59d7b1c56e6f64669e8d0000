@@ -142,7 +142,7 @@
         show_content();
     }
     function printPage() {
-        var w = window();
+        var w = windo();
     
         var headers = $(".coupon_title").html();
         var field= $(".coupon_image").html();
