@@ -1294,7 +1294,7 @@ div.sku strong{
         		    }, 1000);
         		    //add coupon to list variable
         // 			selected_coupon_id.add(current_coupon_id);
-                    console.log(Object.keys(selected_coupon_id).length);
+                    // console.log(Object.keys(selected_coupon_id).length);
         			selected_coupon_id[Object.keys(selected_coupon_id).length] = current_coupon_id;
         		    
     		    } else {
