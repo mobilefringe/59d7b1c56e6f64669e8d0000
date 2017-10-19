@@ -97,7 +97,7 @@
                     </div>
                     <div class="row social_icons">
                         <p>Share the Coupon</p>
-                        <span class="share_fb"></span>
+                        <div class="share_fb"></siv>
                         <span class="share_tw"></span>
                         <span class="share_link"></span>
                         <!--<span class=""><img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508432251000/social_fb_orange.png" class="" alt=""></span>-->
