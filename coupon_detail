@@ -133,7 +133,7 @@
             printPage();
         });
         $(".add_to_basket").click(function(e){
-            var current_coupon_id = $(e.currentTarget).parent().parent().attr("id");
+            var current_coupon_id = $(".coupon_detail").attr("id");
             
             console.log($(e.currentTarget).parent());
             var item = $.grep(selected_coupon_id, function(item) {
