@@ -1294,7 +1294,7 @@ div.sku strong{
         		    }, 1000);
         		    //add coupon to list variable
         // 			selected_coupon_id.add(current_coupon_id);
-        			selected_coupon_id[selected_coupon_id.length] = current_coupon_id;
+        			selected_coupon_id[selected_coupon_id.size] = current_coupon_id;
         		    
     		    } else {
     		        $(el).attr("is_in_cart","false");
