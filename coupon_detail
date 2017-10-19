@@ -97,7 +97,7 @@
                     </div>
                     <div class="row social_icons">
                         <p>Share the Coupon</p>
-                        <a href="http://www.facebook.com/sharer.php?u={{main_host}}/promotions/{{slug}}"></a><div class="social share_fb"></div>
+                        <a href="http://www.facebook.com/sharer.php?u={{main_host}}/promotions/{{slug}}"><div class="social share_fb"></div></a>
                         <a href="http://www.facebook.com/sharer.php?u={{main_host}}/promotions/{{slug}}"><div class="social share_tw"></div></a>
                         <a href="http://www.facebook.com/sharer.php?u={{main_host}}/promotions/{{slug}}"><div class="social share_link"></div></a>
                         
