@@ -76,8 +76,8 @@
                     <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
                     <!-- <img src="{{event_image_url_abs}}" class="details_image" style="{{promo_image}}" />-->
                 </div>
-                <div>
-                    coupon_detail
+                <div class="coupon_detail">
+                    
                 </div>
                 <div class="row ">
                     <div class="col-md-6">
