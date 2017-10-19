@@ -1284,6 +1284,8 @@ div.sku strong{
             			$("body").removeClass("MakeFloatingCart");
             			
         		    }, 1000);
+        		    
+        			selected_coupon_id.push(current_coupon_id);
         		    localStorage['coupons_id'] = JSON.stringify(myVar);
     		    } else {
     		        $(el).attr("is_in_cart","false");
