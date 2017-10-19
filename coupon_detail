@@ -135,7 +135,7 @@
         $(".add_to_basket").click(function(e){
             var current_coupon_id = $(e).parent().parent().attr("id");
             
-            console.log();
+            console.log(current_coupon_id);
             var item = $.grep(selected_coupon_id, function(item) {
                 return item == current_coupon_id;
             });
