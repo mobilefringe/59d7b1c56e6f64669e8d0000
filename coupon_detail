@@ -77,7 +77,7 @@
                     <!-- <img src="{{event_image_url_abs}}" class="details_image" style="{{promo_image}}" />-->
                 </div>
                 <div class="row">
-                    <h3></h3>
+                    <h3>Buy 1 get 1 Free</h3>
                 </div>
                 <!--<p class="colored_link">{{name}}</p>-->
                 <!--<h3 class="publish_date"><span class="promo_parent">{{store_name}} | </span>{{dates}}</h3>-->
