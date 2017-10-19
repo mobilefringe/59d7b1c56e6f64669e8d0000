@@ -4,30 +4,30 @@
     width: 25px;
     right: 0;
     top: 0;
-}
-.green_selected_box {
-    border: 4px solid #31897E;
-}
-.basket_count{
-    /*background:url("http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508351635000/Rectangle Copy 12@2x.png");*/
-    /*background-size:contain;*/
-    /*background-repeat:no-repeat;*/
-    display:inline;
-}
-.basket_count img{
-    width: 25px;
-    position: absolute;
-    right: 30px;
-    top: -2px;
-}
-.basket_count .basket_number{
-    color:#fff;
-    z-index:3;
-    position: absolute;
-    right: 38px;
-    top: 0px;
-    margin:0;
-}
+    }
+    .green_selected_box {
+        border: 4px solid #31897E;
+    }
+    .basket_count{
+        /*background:url("http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508351635000/Rectangle Copy 12@2x.png");*/
+        /*background-size:contain;*/
+        /*background-repeat:no-repeat;*/
+        display:inline;
+    }
+    .basket_count img{
+        width: 25px;
+        position: absolute;
+        right: 30px;
+        top: -2px;
+    }
+    .basket_count .basket_number{
+        color:#fff;
+        z-index:3;
+        position: absolute;
+        right: 38px;
+        top: 0px;
+        margin:0;
+    }
 </style>
 
 <div class="header_banner events_banner">
