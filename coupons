@@ -1473,9 +1473,9 @@ div.sku strong{
 			
 // 		}, 1000);
 // 	});
-    function updatePage (){
-        
-    }
+        function updatePage (){
+            
+        }
     });
 </script>
 <script>
