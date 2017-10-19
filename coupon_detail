@@ -133,7 +133,7 @@
         });
         $(".add_to_basket").click(function(e){
             
-        })
+        });
         loadMallDataCached(renderPage);
     })
     
