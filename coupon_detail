@@ -97,7 +97,7 @@
                     </div>
                     <div class="row social_icons">
                         <p>Share the Coupon</p>
-                        <a href="http://www.facebook.com/sharer.php?u={{main_host}}/promotions/{{slug}}"><div class="social share_fb"></div></a>
+                        <a href="http://www.facebook.com/sharer.php?u=http://preview-59d7b1c56e6f64669e8d0000.codecloudapp.com/coupon_detail"><div class="social share_fb"></div></a>
                         <a href="http://twitter.com/?status=Check%20out%20what%27s%20going%20on%20at%20St.%20Vital%20Centre%21%20{{main_host}}/promotions/{{slug}}"><div class="social share_tw"></div></a>
                         <a href="mailto:?subject={{name}}&body=Check%20out%20what%27s%20going%20on%20at%20St.%20Vital%20Centre%21%20{{main_host}}/promotions/{{slug}}"><div class="social share_link"></div></a>
                         
