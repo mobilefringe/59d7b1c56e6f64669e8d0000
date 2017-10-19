@@ -144,7 +144,7 @@
     
         var headers = $(".coupon_title").html();
         var field= $(".coupon_image").html();
-        var field2= $(".coupon_detail h4").html();
+        var field2= $(".coupon_store_date").html();
     
         var html = "<!DOCTYPE HTML>";
         html += '<html lang="en-us">';
