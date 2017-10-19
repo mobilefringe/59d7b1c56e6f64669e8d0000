@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p></p>
+                        <p>{{store_name}} | </span>{{dates}}</p>
                     </div>
                 </div>
                 
