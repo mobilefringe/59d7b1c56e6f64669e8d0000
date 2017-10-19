@@ -1321,7 +1321,7 @@ div.sku strong{
     	})
 
         function updatePage (){
-            
+            selected_coupon_id
         }
     });
 </script>
