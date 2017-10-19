@@ -1285,7 +1285,7 @@ div.sku strong{
             			$("body").removeClass("MakeFloatingCart");
             			
         		    }, 1000);
-        		    
+        		    //add coupon from localstorage
         			selected_coupon_id.push(current_coupon_id);
         		    
     		    } else {
