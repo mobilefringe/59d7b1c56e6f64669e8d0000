@@ -130,7 +130,8 @@
         }
         $(".print_btn").click(function(e){
             printPage();
-        })
+        });
+        $(".add_to_basket")
         loadMallDataCached(renderPage);
     })
     
