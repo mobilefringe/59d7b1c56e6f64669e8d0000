@@ -70,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Site data -->
     <script>
         // setEndPoint('//thedistrict.mallmaverick.com/api/v3/district/all.json');
-        setEndPoint('//http://twinpine.mallmaverickdevelopment.com/api/v4/twinpine/all.json');
+        setEndPoint('//twinpine.mallmaverickdevelopment.com/api/v4/twinpine/all.json');
     </script>
 </head>
 
