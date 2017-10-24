@@ -289,7 +289,7 @@
         $(container).html(item_rendered.join(''));
     }
     $(window).on('resize', function(){
-        addNewStyle
+        addNewStyle();
     });
     function addNewStyle(){
         
