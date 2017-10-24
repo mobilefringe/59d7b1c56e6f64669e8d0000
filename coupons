@@ -303,4 +303,7 @@
         
         console.log($(".coupons_container").parent() );
     }
+    $(window).load(function(){
+        addNewStyle();
+    })
 </script>
