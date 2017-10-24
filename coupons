@@ -318,7 +318,7 @@
     $(window).load(function(){
         addNewStyle();
     });
-    
+    var category_of_stores = [];
     function renderStoreList(container, template, collection, type, starter, breaker){
         var item_list = [];
         var item_rendered = [];
