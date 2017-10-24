@@ -1238,6 +1238,7 @@ div.sku strong{
         			var float_to_position = $(".basket_number").offset();
         			
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");
+        			console.log(float_to_position);
         			    $("body.MakeFloatingCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
         			    console.log("$('body.MakeFloatingCart').offset()", $("body.MakeFloatingCart").offset());
         			}, 800);
