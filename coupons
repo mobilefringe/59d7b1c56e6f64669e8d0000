@@ -1338,6 +1338,7 @@ div.sku strong{
     });
     function renderAll(){
         // var stores = getStoresList();
+        var coupons = getCouponsList();
         console.log();
         renderPromotions('#store_list_container','#store_list_template', stores);
         // renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
