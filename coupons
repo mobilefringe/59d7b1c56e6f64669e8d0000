@@ -289,7 +289,6 @@
         $(container).html(item_rendered.join(''));
     }
     $(window).on('resize', function(){
-        console.log($($(".coupons_container").parent() + " style"));
         addNewStyle
     });
     function addNewStyle(){
