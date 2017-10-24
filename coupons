@@ -1116,7 +1116,7 @@ div.sku strong{
                                 <div class="make3D col-md-6">
                                     <div class="product-front">
                                         <!--<div class="shadow"></div>-->
-                                        <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1507313420000/Lole_logo.png" alt="" />
+                                        <img src="{{promo_image_url_abs}}" alt="" />
                                     </div>
                                 </div>	
                                 <div class="info-large col-md-6">
