@@ -1236,7 +1236,10 @@ div.sku strong{
         			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
         			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
         			var float_to_position = $(".basket_number").offset();
-        			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
+        			
+        			setTimeout(function(){$("body").addClass("MakeFloatingCart");
+        			    $("body.MakeFloatingCart").
+        			}, 800);
         			console.log("2", cart.offset());
         			setTimeout(function(){
             			$('div.floating-cart').remove();
