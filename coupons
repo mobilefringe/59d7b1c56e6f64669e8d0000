@@ -1236,7 +1236,7 @@ div.sku strong{
         			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
         			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
         			var float_to_position = $(".basket_number").offset();
-        			$("div.floating-cart.moveToCart").css({'top' : position.top + 'px', "left" : position.left + 'px'});
+        			$("div.floating-cart.moveToCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");
         // 			console.log(float_to_position);
         			 //   $("body.MakeFloatingCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
