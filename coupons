@@ -305,5 +305,5 @@
     }
     $(window).load(function(){
         addNewStyle();
-    })
+    });
 </script>
