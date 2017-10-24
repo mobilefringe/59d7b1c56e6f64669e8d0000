@@ -1305,7 +1305,7 @@ div.sku strong{
         			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
         			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
-        			console.log("2", cart);
+        			console.log("2", cart.offset());
         			setTimeout(function(){
             			$('div.floating-cart').remove();
             			$("body").removeClass("MakeFloatingCart");
