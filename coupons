@@ -334,7 +334,7 @@
                 }
             }
             if(val.categories !== null && val.categories !== undefined){
-                category_of_stores
+                category_of_stores = $.merge([], category_of_stores);
             }
             // console.log(val);
             var rendered = Mustache.render(template_html,val)
