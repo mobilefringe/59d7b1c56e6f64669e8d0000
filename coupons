@@ -1160,6 +1160,9 @@ div.sku strong{
 <!--<script src="menu.js"></script>-->
 <script>
     $(document).ready(function(){
+        init(e);
+        loadMallDataCached(renderAll);
+    });
         selected_coupon_id = {};
         var cache_coupon_ids = localStorage['coupon_ids'];
         if (cache_coupon_ids) {
@@ -1338,14 +1341,7 @@ div.sku strong{
             })
             
         }
-    });
-</script>
-<script>
-    $(document).ready(function(e){
-        init(e);
-        loadMallDataCached(renderAll);
-    });
-    function renderAll(){
+        function renderAll(){
         // var stores = getStoresList();
         var coupons = getCouponsList();
         console.log(coupons);
@@ -1402,5 +1398,12 @@ div.sku strong{
         });
         $(container).html(item_rendered.join(''));
     }
+    });
+</script>
+<script>
+    $(document).ready(function(e){
+        
+    });
+    
 
 </script>
