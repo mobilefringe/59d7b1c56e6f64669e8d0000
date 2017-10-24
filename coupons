@@ -239,7 +239,7 @@
         // renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         $('.custom_backdrop').remove();
         $('.yield').fadeIn();
-        addNewStyle();
+        
     }
     function renderCoupons(container, template, collection){
         var item_list = [];
