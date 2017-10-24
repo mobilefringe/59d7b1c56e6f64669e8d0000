@@ -1398,7 +1398,6 @@ div.sku strong{
         });
         $(container).html(item_rendered.join(''));
     }
-    });
 </script>
 <script>
     $(document).ready(function(e){
