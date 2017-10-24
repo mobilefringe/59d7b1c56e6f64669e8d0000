@@ -295,10 +295,3 @@
     });
      $("<style type='text/css'> "+ float_style_1 + " " +float_style_2 + </style>").appendTo($(".coupons_container").parent());
 </script>
-<script>
-    $(document).ready(function(e){
-        
-    });
-    
-
-</script>
