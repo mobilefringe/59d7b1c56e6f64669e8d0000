@@ -184,7 +184,7 @@
     		        console.log("img",img, "img src",img.attr("src"));
         			$("body").append('<div class="floating-cart"></div>');		
         			var cart = $('div.floating-cart');
-        			console.log("1", cart.offset());
+        // 			console.log("1", cart.offset());
         			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
         			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
         			var float_to_position = $(".basket_number").offset();
@@ -194,7 +194,7 @@
         			 //   $("body.MakeFloatingCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
         			 //   console.log("$('body.MakeFloatingCart').offset()", $("body.MakeFloatingCart").offset());
         			}, 800);
-        			console.log("2", cart.offset());
+        // 			console.log("2", cart.offset());
         			setTimeout(function(){
             			$('div.floating-cart').remove();
             			$("body").removeClass("MakeFloatingCart");
