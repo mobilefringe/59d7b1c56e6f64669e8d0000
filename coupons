@@ -1215,7 +1215,7 @@ div.sku strong{
       
         $('.colors-large a').click(function(){return false;});
         
-        $("<style type='text/css'> "+ float_style_1 + " " +float_style_2 + </style>").appendTo($(".coupons_container").parent());
+       
     	$('.add-to-basket').each(function(i, el){
     	   // console.log("baskets", $(el));
     		$(el).click(function(){
