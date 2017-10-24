@@ -1125,7 +1125,7 @@ div.sku strong{
                                 	<h4>{{name}}</h4>
                                 	<p>{{dates}}</p>
                               
-                                    <a class="add-cart-large" href="/coupon_detail">View Details</a>                          
+                                    <a class="add-cart-large" href="/coupons/{{slug}}">View Details</a>                          
                                                  
                                 </div>
                             </div> 
