@@ -112,11 +112,7 @@
         renderGeneral('#category_container, #category_container2', '#category_template', category_of_stores);
         $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
         
-        var coupons = getCouponsList();
-        coupons = $.grep(coupons, function( val, i ) {
-                        return ($.inArray(val,selected_coupon_id);
-                    });
-        console.log(coupons);
+        
         renderCoupons('#coupon_container','#coupon_template', coupons);
         selected_coupon_id = {};
         var cache_coupon_ids = localStorage['coupon_ids'];
