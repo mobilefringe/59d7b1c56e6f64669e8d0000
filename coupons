@@ -323,7 +323,7 @@
             }
             // console.log(val);
             if (val.total_published_coupons > 0){
-                console.log(val.total_published_coupons);
+                // console.log(val.total_published_coupons);
                 item_rendered.push(rendered);
             }
             // else {
