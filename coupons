@@ -1214,7 +1214,8 @@ div.sku strong{
     	});
       
         $('.colors-large a').click(function(){return false;});
-        var float_style_1="div.floating-cart.moveToCart{left: 85% !important;top: 255px !important;width: 47px;height: 47px;	-webkit-transition: all 800ms ease-in-out;-moz-transition: all 800ms ease-in-out;-ms-transition: all 800ms ease-in-out;-o-transition: all 800ms ease-in-out;transition: all 800ms ease-in-out; }
+        var float_style_1="div.floating-cart.moveToCart{left: 85% !important;top: 255px !important;width: 47px;height: 47px;	-webkit-transition: all 800ms ease-in-out;-moz-transition: all 800ms ease-in-out;-ms-transition: all 800ms ease-in-out;-o-transition: all 800ms ease-in-out;transition: all 800ms ease-in-out; }"
+        var float_style_1=""
 body.MakeFloatingCart div.floating-cart.moveToCart{	
 	left:  85% !important;
 	top: 310px !important;
