@@ -322,7 +322,7 @@
                 }
             }
             if (val.total_published_coupons > 0){
-                val.promo_exist = "display:inline"
+                item_rendered.push(rendered);
             }
             else {
                 val.promo_exist = "display:none"
