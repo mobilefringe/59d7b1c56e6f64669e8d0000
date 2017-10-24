@@ -196,8 +196,8 @@
         			}, 800);
         // 			console.log("2", cart.offset());
         			setTimeout(function(){
-            			$('div.floating-cart').remove();
-            			$("body").removeClass("MakeFloatingCart");
+            // 			$('div.floating-cart').remove();
+            // 			$("body").removeClass("MakeFloatingCart");
             			
         		    }, 1000);
         		    //add coupon to list variable
