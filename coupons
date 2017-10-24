@@ -334,9 +334,10 @@
                 }
             }
             console.log(val);
+            var rendered = Mustache.render(template_html,val);
             if (val != null && val != undefined && val.total_published_coupons > 0){
                 console.log(val.total_published_coupons);
-                var rendered = Mustache.render(template_html,val);
+                
                 item_rendered.push(rendered);
             }
             // else {
