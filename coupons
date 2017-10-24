@@ -1341,7 +1341,7 @@ div.sku strong{
             })
             
         }
-        function renderAll(){
+    function renderAll(){
         // var stores = getStoresList();
         var coupons = getCouponsList();
         console.log(coupons);
