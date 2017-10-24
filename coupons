@@ -1275,6 +1275,7 @@ div.sku strong{
     	
     // // 		makeCarousel(el);
     // 	});
+    console.log($('.add-to-basket'));
     	$('.add-to-basket').each(function(i, el){
     	    console.log("baskets", $(el));
     		$(el).click(function(){
