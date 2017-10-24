@@ -324,9 +324,9 @@
             if (val.total_published_coupons > 0){
                 item_rendered.push(rendered);
             }
-            else {
-                val.promo_exist = "display:none"
-            }
+            // else {
+            //     val.promo_exist = "display:none"
+            // }
             // if (val.total_published_promos > 0){
             //     val.promo_exist = "display:inline"
             // }
