@@ -111,6 +111,7 @@
         console.log(category_of_stores);
         renderGeneral('#category_container, #category_container2', '#category_template', category_of_stores);
         $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
+        
         var coupons = getCouponsList();
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
