@@ -113,6 +113,7 @@
         $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
         
         var coupons = getCouponsList();
+        coupons
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
         selected_coupon_id = {};
