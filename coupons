@@ -1337,7 +1337,7 @@ div.sku strong{
         loadMallDataCached(renderAll);
     });
     function renderAll(){
-        var stores = getStoresList();
+        // var stores = getStoresList();
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         $('.custom_backdrop').remove();
         $('.yield').fadeIn();
