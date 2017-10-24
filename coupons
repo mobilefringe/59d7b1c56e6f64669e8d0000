@@ -29,7 +29,7 @@
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li href="#" class="show_all_stores">All</li>
-                    <li class="show_cat_stores" data-id="4016">Restaurants & Bars</li>
+                    <!--<li class="show_cat_stores" data-id="4016">Restaurants & Bars</li>-->
                     
                 </ul>
             </div>
