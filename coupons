@@ -122,6 +122,9 @@
     function renderAll(){
         var stores = getStoresList();
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "#", "Z");
+        var categories = getStoreCategories();
+        renderGeneral('#category_container, #category_container2', '#category_template', categories);
+        
         var coupons = getCouponsList();
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
