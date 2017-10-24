@@ -1277,7 +1277,7 @@ div.sku strong{
     // 	});
     	$('.add-to-basket').each(function(i, el){
     		$(el).click(function(){
-    		    console.log("clicked", $(el))
+    		    console.log("clicked", $(el));
     		    var current_coupon_id = $(el).parent().parent().attr("id");
     		    console.log(current_coupon_id);
     		    if($(el).attr("is_in_cart") === "false") {
