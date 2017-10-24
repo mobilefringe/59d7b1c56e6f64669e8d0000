@@ -1239,7 +1239,7 @@ div.sku strong{
         			
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");
         			    $("body.MakeFloatingCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
-        			    console.log("$("body.MakeFloatingCart").offset()", $("body.MakeFloatingCart").offset());
+        			    console.log("$('body.MakeFloatingCart').offset()", $("body.MakeFloatingCart").offset());
         			}, 800);
         			console.log("2", cart.offset());
         			setTimeout(function(){
