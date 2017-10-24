@@ -1338,6 +1338,8 @@ div.sku strong{
         });
         $(container).html(item_rendered.join(''));
     }
+    $(window).on('resize', function(){
+    });
 </script>
 <script>
     $(document).ready(function(e){
