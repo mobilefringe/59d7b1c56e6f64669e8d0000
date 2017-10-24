@@ -120,6 +120,7 @@
 <script>
 
     var category_of_stores = [];
+    
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderAll);
