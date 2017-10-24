@@ -1,13 +1,3 @@
-<style>
-    /*	Reset & General
----------------------------------------------------------------------- */
-/** { margin: 0px; padding: 0px; }*/
-/*body {*/
-/*	font-family: "Open Sans", sans-serif; */
-/*	overflow:hidden;	*/
-/*}*/
-
-</style>
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 <div class="header_banner location_banner">
