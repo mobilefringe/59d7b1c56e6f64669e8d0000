@@ -1340,7 +1340,7 @@ div.sku strong{
         // var stores = getStoresList();
         var coupons = getCouponsList();
         console.log(coupons);
-        renderPromotions('#store_list_container','#store_list_template', stores);
+        renderPromotions('#store_list_container','#store_list_template', coupons);
         // renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         $('.custom_backdrop').remove();
         $('.yield').fadeIn();
