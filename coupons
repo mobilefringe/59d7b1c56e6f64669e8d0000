@@ -1123,7 +1123,7 @@ div.sku strong{
                                     <img src="http://assets.codecloudapp.com/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png" class="basket_image add-to-basket" alt="" id="add-to-basket" is_in_cart="false">
                             	    <p>Lole</p>
                                 	<h4>{{name}}</h4>
-                                	<p>Oct 7 - Oct 10</p>
+                                	<p>{{dates}}</p>
                               
                                     <a class="add-cart-large" href="/coupon_detail">View Details</a>                          
                                                  
