@@ -1276,7 +1276,7 @@ div.sku strong{
     // // 		makeCarousel(el);
     // 	});
     	$('.add-to-basket').each(function(i, el){
-    	    console.log("basket", $(el));
+    	    console.log("baskets", $(el));
     		$(el).click(function(){
     		    console.log("clicked", $(el));
     		    var current_coupon_id = $(el).parent().parent().attr("id");
