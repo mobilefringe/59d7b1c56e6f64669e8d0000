@@ -290,7 +290,7 @@
     }
     $(window).on('resize', function(){
         console.log($($(".coupons_container").parent() + " style"));
-        
+        addNewStyle
     });
     function addNewStyle(){
         var float_to_position = $(".basket_number").offset();
