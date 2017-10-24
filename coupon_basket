@@ -112,8 +112,7 @@
         renderGeneral('#category_container, #category_container2', '#category_template', category_of_stores);
         $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
         
-        
-        renderCoupons('#coupon_container','#coupon_template', coupons);
+       
         selected_coupon_id = {};
         var cache_coupon_ids = localStorage['coupon_ids'];
         if (cache_coupon_ids) {
