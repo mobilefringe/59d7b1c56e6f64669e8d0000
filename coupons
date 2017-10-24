@@ -333,7 +333,7 @@
                     val.alt_store_front_url = getImageURL(val.store_front_url);    
                 }
             }
-            // console.log(val);
+            console.log(val);
             if (val != null && val != undefined && val.total_published_coupons > 0){
                 console.log(val.total_published_coupons);
                 item_rendered.push(rendered);
