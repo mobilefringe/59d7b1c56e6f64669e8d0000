@@ -72,7 +72,7 @@
             
     </div>
     <div class="hidden_now" id="no_coupon" style="padding: 20px 0; font-size: 20px;">
-        You have not selected any coupons yet! Go back to select your coupons before printing them! 
+        You have not selected any coupons yet! <br/>Go back to select your coupons before printing them! 
     <div>
     
 </div>
