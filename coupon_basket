@@ -108,7 +108,6 @@
                     coupons.push(val);
                 }
             });
-            console.log(coupons);
             renderCoupons('#coupon_container','#coupon_template', coupons);
             
             updatePage();
