@@ -282,7 +282,9 @@
                 // }
             });
             $.each($("#coupon_container .col-md-6"), function(i,val) {
-                
+                if( $(val).children().is(":visible")){
+                console.log("do something")
+            }
             })
             //  console.log("do something")
             
