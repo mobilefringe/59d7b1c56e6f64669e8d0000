@@ -195,6 +195,7 @@
         
     }
     function printPage() {
+        selected_coupon_id
         var w = window.open();
     
         var headers = $(".coupon_title").html();
