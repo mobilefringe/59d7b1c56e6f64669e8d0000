@@ -114,7 +114,7 @@
         var coupons = getCouponsList();
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
-        selected_coupon_id = [];
+        selected_coupon_id = {};
         // var cache_coupon_ids = localStorage['coupon_ids'];
         var cache_coupon_ids = $.cookie().coupon_ids;
         if (cache_coupon_ids) {
@@ -199,7 +199,8 @@
         		    //add coupon to list variable
         // 			selected_coupon_id.add(current_coupon_id);
                     // console.log(Object.keys(selected_coupon_id).length);
-        			selected_coupon_id[Object.keys(selected_coupon_id).length] = current_coupon_id;
+        			selected_coupon_id.push(current_coupon_id);
+        			//[Object.keys(selected_coupon_id).length] = current_coupon_id;
         		  //  console.log(selected_coupon_id);
     		    } else {
     		        $(el).attr("is_in_cart","false");
