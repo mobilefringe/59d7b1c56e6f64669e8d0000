@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="col-md-6 coupon_dets_btns">
-                <a class="dets_btn" style="{{show_add_to_basket}}">Add to Basket</a>
+                <a class="dets_btn" >Add to Basket</a>
                 <a class="dets_btn print_btn">Print Coupon</a>
             </div>
             <!--<div class="col-md-3"></div>-->
