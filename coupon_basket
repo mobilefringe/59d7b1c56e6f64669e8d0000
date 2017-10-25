@@ -157,7 +157,7 @@
     		$(el).click(function(){
     		  //  console.log("clicked", $(el));
     		    var current_coupon_id = $(el).parent().parent().attr("id");
-    		  //  console.log(current_coupon_id);
+    		    console.log(current_coupon_id);
     		  //  if($(el).attr("is_in_cart") === "false") {
     		        
     		  //      $(el).attr("is_in_cart","true");
