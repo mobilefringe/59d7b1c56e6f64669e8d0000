@@ -261,6 +261,7 @@
         }
     
         $('.show_coupon_by_stores').click(function(e){
+            $("#coupon_container").children().show();
             coupons = getStoreCouponsListByStoreName();
             var store_name = $(this).attr('data-name');
             $('.active_cat').removeClass('active_cat');
@@ -284,7 +285,7 @@
             $.each($("#coupon_container").children(), function(i,val) {
                 if( !$(val).children().is(":visible")){
                 console.log(val);
-                $(val).hide()
+                $(val).hide();
                 
             }
             })
