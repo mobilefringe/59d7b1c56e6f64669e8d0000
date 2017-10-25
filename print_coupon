@@ -61,7 +61,7 @@
                 }
             });
             renderCoupons('#coupon_container','#coupon_template', coupons);
-            updatePage();
+            // updatePage();
         }
             
             
