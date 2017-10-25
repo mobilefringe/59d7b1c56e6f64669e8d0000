@@ -1061,11 +1061,10 @@
     #store_list_container {
         li {
             cursor: pointer;
-            a {
-                &:hover {
-                    text-transformation: underline
+        &:hover {
+                    text-transform: underline
                 }
-            }
+        
         }
     }
 }
