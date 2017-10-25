@@ -1058,6 +1058,11 @@
             padding-bottom: 20px;
         }
     }
+    #store_container {
+        li {
+            cursor: pointer;
+        }
+    }
 }
 
 .coupons_dets_container 
