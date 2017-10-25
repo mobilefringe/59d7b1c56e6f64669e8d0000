@@ -281,6 +281,7 @@
                 //     $(val).show();
                 // }
             });
+             console.log("do something")
             if( $(".col-md-6").children.isVisible()){
                 console.log("do something")
             }
