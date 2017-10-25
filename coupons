@@ -272,7 +272,9 @@
             // $('#cat_name').css('display', 'block');
             // $('#store_list_container, #store_list_container2').addClass("full_width");
             $.each(coupons, function(i, val){
-                if(store_name == val.store_name)
+                if(store_name == val.store_name){
+                    
+                }
                 // var cat_array = val.getAttribute('data-cat').split(',');
                 // if ($.inArray(cat_id, cat_array) >= 0){
                 //     $(val).show();
