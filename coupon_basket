@@ -217,7 +217,7 @@
          if(headers != null) html += headers + "<br/><br/>";
         // var fields = [];
         $.each(coupons , function (index, val){
-           html +=  '<div class="col-md-6"><div class="product large"><div class="make3D col-md-6"><div class="product-front"><img src="'+val.promo_image_url_abs+'" alt="" /></div></div><div class="info-large col-md-6"><p>'+ val.store_name+' - '+ val.dates+'</p><h4>'+ val.name+'</h4><p>'+description+'<p/></div></div></div>'
+           html +=  '<div class="col-md-6"><div class="product large"><div class="make3D col-md-6"><div class="product-front"><img src="'+val.promo_image_url_abs+'" alt="" /></div></div><div class="info-large col-md-6"><p>'+ val.store_name+' - '+ val.dates+'</p><h4>'+ val.name+'</h4><p>'+val.description+'<p/></div></div></div>'
         });
         
         // var field= $(".coupon_image").html();
