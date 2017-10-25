@@ -8,7 +8,7 @@
                        <div class="col-md-6">
                             <div class="product large" id="{{id}}" style="height:100%">
                               
-                                <div class="info-large col-md-6">
+                                <div class="info-large col-md-12">
                                     <img src="{{promo_image_url_abs}}" alt="" style="height:100%" />
                             	    <p>{{store_name}}</p>
                                 	<h4>{{name}}</h4>
