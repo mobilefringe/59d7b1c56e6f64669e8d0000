@@ -1107,7 +1107,7 @@
 .coupon_dets_btns{
     text-align:right;
     a{
-        display:block;
+        display:inline;
     }
 }
 .dets_btn{
