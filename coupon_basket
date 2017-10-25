@@ -194,6 +194,29 @@
         $('.yield').fadeIn();
         
     }
+    function printPage() {
+        var w = window.open();
+    
+        var headers = $(".coupon_title").html();
+        var field= $(".coupon_image").html();
+        var field2= $(".coupon_store_date").html();
+        var field3= $(".coupon_info").html();
+        
+        var html = "<!DOCTYPE HTML>";
+        html += '<html lang="en-us">';
+        html += '<head><style></style></head>';
+        html += "<body>";
+    
+        //check to see if they are null so "undefined" doesnt print on the page. <br>s optional, just to give space
+        if(headers != null) html += headers + "<br/><br/>";
+        if(field != null) html += field + "<br/><br/>";
+        if(field2 != null) html += field2 + "<br/><br/>";
+        if(field3 != null) html += field3 + "<br/><br/>";
+        html += "</body>";
+        w.document.write(html);
+        w.window.print();
+        w.document.close();
+    }
     function renderCoupons(container, template, collection){
         var item_list = [];
         var item_rendered = [];
