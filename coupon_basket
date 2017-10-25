@@ -220,7 +220,7 @@
                                 <div class="info-large col-md-6">
                             	    <p>{{store_name}} - {{dates}}</p>
                                 	<h4>{{name}}</h4>
-                                	                
+                                	<p>{{{description}}}<p/>                
                                                  
                                 </div>
                             </div> 
