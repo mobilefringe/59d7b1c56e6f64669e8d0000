@@ -1053,6 +1053,11 @@
     .product.large:hover{
     	box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0.15);	
     }
+    .store_nav.hidden_phone {
+        .row{
+                padding-bottom: 20px;
+        }
+    }
 }
 
 .coupons_dets_container 
