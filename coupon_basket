@@ -98,7 +98,7 @@
             console.log(coupons);
             coupons = $.grep(coupons, function( val, i ) {
                 console.log("is "+val.id.toString()+ " in " +selected_coupon_id +  "? " +$.inArray(val.toString(),selected_coupon_id));
-                        return ($.inArray(val.toString(),selected_coupon_id));
+                        return ($.inArray(val.id.toString(),selected_coupon_id));
                     });
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
