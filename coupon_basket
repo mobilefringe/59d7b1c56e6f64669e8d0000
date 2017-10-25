@@ -98,7 +98,7 @@
             // console.log(coupons);
             all_coupons = getCouponsList();
             
-            $.each(all_coupons , function (val){
+            $.each(all_coupons , function (index, val){
                 console.log(val);
                 var is_inArray = $.grep(selected_coupon_id, function( value, i ) {
                     // console.log("is "+val.id.toString()+ " in " +value +  "? " +$.inArray(val.id.toString(),selected_coupon_id));
