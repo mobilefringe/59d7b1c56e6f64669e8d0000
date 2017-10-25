@@ -75,7 +75,7 @@
 <!--<script src="menu.js"></script>-->
 <script>
 
-    var category_of_stores = [];
+    var selected_coupon_id = [];
     
     $(document).ready(function(e){
         init(e);
