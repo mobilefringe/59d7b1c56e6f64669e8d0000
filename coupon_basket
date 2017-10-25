@@ -103,8 +103,8 @@
                     return ($.inArray(val.id.toString(),selected_coupon_id));
                 });
             });
-        console.log(coupons);
-        renderCoupons('#coupon_container','#coupon_template', coupons);
+            console.log(coupons);
+            renderCoupons('#coupon_container','#coupon_template', coupons);
             selected_coupon_id = JSON.parse(cache_coupon_ids);
             console.log(selected_coupon_id);
             updatePage();
