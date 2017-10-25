@@ -264,7 +264,7 @@
             var cat_id = $(this).attr('data-id');
             $('.active_cat').removeClass('active_cat');
             $(this).addClass('active_cat');
-            var rows = $('.cats_row');
+            // var rows = $('.cats_row');
             rows.hide();
             $('.store_initial').hide();
             $('#cat_name').text($(this).text());
