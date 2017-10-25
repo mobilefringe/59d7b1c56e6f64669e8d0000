@@ -132,6 +132,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <!--</div>-->
             <!--</div>-->
         </div>
+        <br/>
+            <hr/>
     </header>
     <section id="content" class="yield">
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
