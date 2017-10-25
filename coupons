@@ -282,7 +282,7 @@
                 // }
             });
              console.log("do something")
-            if( $(".col-md-6").children.isVisible()){
+            if( $(".col-md-6").children().isVisible()){
                 console.log("do something")
             }
             $('html, body').animate({scrollTop : 0},800);
