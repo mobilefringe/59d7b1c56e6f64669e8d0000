@@ -273,9 +273,9 @@
             // $('#store_list_container, #store_list_container2').addClass("full_width");
             $.each(coupons, function(i, val){
                 // var cat_array = val.getAttribute('data-cat').split(',');
-                if ($.inArray(cat_id, cat_array) >= 0){
-                    $(val).show();
-                }
+                // if ($.inArray(cat_id, cat_array) >= 0){
+                //     $(val).show();
+                // }
             });
             $('html, body').animate({scrollTop : 0},800);
             e.preventDefault();
