@@ -19,7 +19,7 @@
                                 	<h4>{{name}}</h4>
                                 	<p>{{dates}}</p>
                                     
-                                    <p>{{{description}}
+                                    <p>{{{description}}}</p>
                                     // <a class="add-cart-large" href="/coupons/{{slug}}">View Details</a>                          
                                                  
                                 </div>
