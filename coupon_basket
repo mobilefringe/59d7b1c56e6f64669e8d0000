@@ -115,6 +115,7 @@
                     coupons.push(val);
                 }
             });
+            if( coupons.length > 0)
             renderCoupons('#coupon_container','#coupon_template', coupons);
             updatePage();
         }
