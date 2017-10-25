@@ -1062,9 +1062,8 @@
         li {
             cursor: pointer;
             &:hover {
-                a{
-                    text-transform: underline;
-                }
+               text-transform: underline;
+                
             }
         
         }
