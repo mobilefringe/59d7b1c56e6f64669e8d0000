@@ -218,7 +218,7 @@
                                     </div>
                                 </div>	
                                 <div class="info-large col-md-6">
-                            	    <p>{{store_name}}</p> - <p>{{dates}}</p>
+                            	    <p>{{store_name}} - {{dates}}</p>
                                 	<h4>{{name}}</h4>
                                 	
                                     <p>                  
