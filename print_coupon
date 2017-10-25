@@ -261,9 +261,9 @@
         });
         $(container).html(item_rendered.join(''));
     }
-    $(window).on('resize', function(){
-        addNewStyle();
-    });
+    // $(window).on('resize', function(){
+    //     addNewStyle();
+    // });
     // function addNewStyle(){
     //     // console.log( $(".basket_number"));
     //     // var float_to_position = $(".basket_number").offset();
