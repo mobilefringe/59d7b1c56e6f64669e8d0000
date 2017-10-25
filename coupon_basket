@@ -208,13 +208,7 @@
         });
         var w = window.open();
         $.each(coupons , function (index, val){
-            var is_inArray = $.grep(Object.keys(selected_coupon_id), function(i) {
-                // console.log(value);
-                return val.id.toString() ==selected_coupon_id[i];
-            });
-            if(is_inArray.length > 0){
-                coupons.push(val);
-            }
+            
         });
         var headers = $(".coupon_title").html();
         var field= $(".coupon_image").html();
