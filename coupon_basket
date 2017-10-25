@@ -97,6 +97,12 @@
             var coupons = getCouponsList();
             console.log(coupons);
             // coupons = 
+            $.each(selected_coupon_id , function (val){
+                $.grep(coupons, function( val, i ) {
+                console.log("is "+val.id.toString()+ " in " +selected_coupon_id +  "? " +$.inArray(val.id.toString(),selected_coupon_id));
+                        return ($.inArray(val.id.toString(),selected_coupon_id));
+                    });
+            })
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
             selected_coupon_id = JSON.parse(cache_coupon_ids);
