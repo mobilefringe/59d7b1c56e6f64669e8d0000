@@ -209,7 +209,7 @@
         var w = window.open();
         var fields = [];
         $.each(coupons , function (index, val){
-            field
+            field[index]
         });
         var headers = $(".coupon_title").html();
         var field= $(".coupon_image").html();
