@@ -294,7 +294,7 @@
             $('html, body').animate({scrollTop : 0},800);
             e.preventDefault();
         });
-        $('.show_coupon_by_stores').click(function(e){
+        $('.show_all_coupons').click(function(e){
             $("#coupon_container").children().show();
             coupons = getStoreCouponsListByStoreName();
             var store_name = $(this).attr('data-name');
