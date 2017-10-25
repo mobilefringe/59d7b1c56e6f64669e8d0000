@@ -209,13 +209,9 @@
     		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
     		        
     		        //remove coupon from list variable
-    		        selected_coupon_id = $.grep(Object.keys(selected_coupon_id), function(i) {
-                            // console.log(value);
-                            return current_coupon_id.toString() == selected_coupon_id[i];
+    		        selected_coupon_id = $.grep(selected_coupon_id, function( val, i ) {
+                        return (val !== current_coupon_id);
                     });
-    		      //  $.grep(selected_coupon_id, function( val, i ) {
-            //             return (val !== current_coupon_id);
-            //         });
     		    }
     		    //getting the logo image
     		  //  console.log($("#"+$(el).parent().parent().attr("id") +" .product-front"));
