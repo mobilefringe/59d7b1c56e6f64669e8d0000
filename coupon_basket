@@ -218,6 +218,15 @@
                 // val.promo_image = "display:none";
                 // val.full_width = "width:100%"
             }
+            var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
+            var start = moment(val.start_date).tz(getPropertyTimeZone());
+            var end = moment(val.end_date).tz(getPropertyTimeZone());
+            if (start.format("DMY") == end.format("DMY")){
+            	val.dates = start.format("MMM D");
+            }
+            else {
+            	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+            }
             var is_inArray = $.grep(Object.keys(selected_coupon_id), function(i) {
                 // console.log(value);
                 return val.id.toString() ==selected_coupon_id[i];
