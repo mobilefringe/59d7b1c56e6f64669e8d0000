@@ -217,7 +217,7 @@
         var headers = $(".coupon_title").html();
         var html = "<!DOCTYPE HTML>";
         html += '<html lang="en-us">';
-        var head =  '<head><script src="https://code.jquery.com/jquery-2.2.4.min.js"' +'></script>'+ '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">' + '</script></head>';
+        var head =  '<head>+ '<script src="https://code.jquery.com/jquery-2.2.4.min.js"' +'></script>'+ '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">' + '</script></head>';
         html += head;
         html += "<body>";
          if(headers != null) html += headers + "<br/><br/>";
