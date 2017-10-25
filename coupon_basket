@@ -236,16 +236,16 @@
             }
         });
         var w = window.open();
-        var headers = $(".coupon_title").html();
-        var html = "<!DOCTYPE HTML>";
-        html += '<html lang="en-us">';
-        html += '<head><link href="//preview-59d7b1c56e6f64669e8d0000.codecloudapp.com/coupons.css" rel="stylesheet"><style>body{text-align:center;}.col-md-6{width:50%;display:block;border: 1px solid #000;padding:10px; margin:auto;}.make3D.col-md-6, .info-large.col-md-6{border:none}</style></head>';
-        html += "<body><a href='/'><img src='//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/jpeg/undefined/dtl_500x500_logo.jpg' class='main_logo' /></a>";
-         if(headers != null) html += headers + "<br/><br/>";
-        // var fields = [];
-        $.each(coupons , function (index, val){
-           html +=  '<div class="col-md-6"><div class="product large"><div class="make3D col-md-3"><div class="product-front"><img src="'+val.promo_image_url_abs+'" alt="" /></div></div><div class="info-large col-md-3"><p>'+ val.store_name+' - '+ val.dates+'</p><h4>'+ val.name+'</h4><p>'+val.description+'<p/></div></div></div>'
-        });
+        // var headers = $(".coupon_title").html();
+        // var html = "<!DOCTYPE HTML>";
+        // html += '<html lang="en-us">';
+        // html += '<head><link href="//preview-59d7b1c56e6f64669e8d0000.codecloudapp.com/coupons.css" rel="stylesheet"><style>body{text-align:center;}.col-md-6{width:50%;display:block;border: 1px solid #000;padding:10px; margin:auto;}.make3D.col-md-6, .info-large.col-md-6{border:none}</style></head>';
+        // html += "<body><a href='/'><img src='//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/jpeg/undefined/dtl_500x500_logo.jpg' class='main_logo' /></a>";
+        //  if(headers != null) html += headers + "<br/><br/>";
+        // // var fields = [];
+        // $.each(coupons , function (index, val){
+        //   html +=  '<div class="col-md-6"><div class="product large"><div class="make3D col-md-3"><div class="product-front"><img src="'+val.promo_image_url_abs+'" alt="" /></div></div><div class="info-large col-md-3"><p>'+ val.store_name+' - '+ val.dates+'</p><h4>'+ val.name+'</h4><p>'+val.description+'<p/></div></div></div>'
+        // });
         
         // var field= $(".coupon_image").html();
         // var field2= $(".coupon_store_date").html();
@@ -258,7 +258,7 @@
         // if(field != null)  "<br/><br/>";
         // if(field2 != null) html += field2 + "<br/><br/>";
         // if(field3 != null) html += field3 + "<br/><br/>";
-        html += "</body>";
+        // html += "</body>";
         w.document.write(html);
         // w.window.print();
         w.document.close();
