@@ -214,7 +214,7 @@
         if(field3 != null) html += field3 + "<br/><br/>";
         html += "</body>";
         w.document.write(html);
-        w.window.print();
+        // w.window.print();
         w.document.close();
     }
     function renderCoupons(container, template, collection){
