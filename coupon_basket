@@ -218,11 +218,10 @@
                                     </div>
                                 </div>	
                                 <div class="info-large col-md-6">
-                            	    <p>{{store_name}}</p>
+                            	    <p>{{store_name}}</p> - <p>{{dates}}</p>
                                 	<h4>{{name}}</h4>
-                                	<p>{{dates}}</p>
-                                        
-                                    // <a class="add-cart-large" href="/coupons/{{slug}}">View Details</a>                          
+                                	
+                                    <p>                  
                                                  
                                 </div>
                             </div> 
