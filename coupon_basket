@@ -202,7 +202,7 @@
         //             });
     		  //  }
     		    $(".basket_number").text(parseInt($(".basket_number").text())-1);
-    		        
+    		        $("#"+current_coupon_id).hide();
     		        //remove coupon from list variable
     		        selected_coupon_id = $.grep(selected_coupon_id, function( val, i ) {
                         return (val !== current_coupon_id);
