@@ -281,7 +281,9 @@
                 //     $(val).show();
                 // }
             });
-            $.each($("#coupon_container .col-md-6"))
+            $.each($("#coupon_container .col-md-6"), function(i,val) {
+                
+            })
             //  console.log("do something")
             if( $(".col-md-6").children().is(":visible")){
                 console.log("do something")
