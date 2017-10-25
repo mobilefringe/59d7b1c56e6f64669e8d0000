@@ -239,7 +239,7 @@
         var headers = $(".coupon_title").html();
         var html = "<!DOCTYPE HTML>";
         html += '<html lang="en-us">';
-        html += '<head><link href="http://preview-59d7b1c56e6f64669e8d0000.codecloudapp.com/coupons.css" rel="stylesheet"><style></style></head>';
+        html += '<head><link href="http://preview-59d7b1c56e6f64669e8d0000.codecloudapp.com/coupons.css" rel="stylesheet"><style>. col-md-6{width:50%;}</style></head>';
         html += "<body>";
          if(headers != null) html += headers + "<br/><br/>";
         // var fields = [];
