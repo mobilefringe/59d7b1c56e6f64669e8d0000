@@ -208,7 +208,10 @@
     		        $(".basket_number").text(parseInt($(".basket_number").text())-1);
     		        
     		        //remove coupon from list variable
-    		        selected_coupon_id = 
+    		        selected_coupon_id = $.grep(Object.keys(selected_coupon_id), function(i) {
+                    // console.log(value);
+                    return coupons.id.toString() == selected_coupon_id[i];
+            });
     		      //  $.grep(selected_coupon_id, function( val, i ) {
             //             return (val !== current_coupon_id);
             //         });
