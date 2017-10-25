@@ -102,7 +102,7 @@
                     console.log("is "+val.id.toString()+ " in " +selected_coupon_id +  "? " +$.inArray(val.id.toString(),selected_coupon_id));
                     return ($.inArray(val.id.toString(),selected_coupon_id));
                 }).length > 0){
-                    
+                    coupons.push(val);
                 }
             });
             console.log(coupons);
