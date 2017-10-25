@@ -91,7 +91,7 @@
         // $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
         
        
-        selected_coupon_id = [];
+        
         // var cache_coupon_ids = localStorage['coupon_ids'];
         var cache_coupon_ids = $.cookie().coupon_ids;
         if (cache_coupon_ids) {
