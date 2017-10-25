@@ -103,7 +103,7 @@
             
             $.each(all_coupons , function (index, val){
                 var is_inArray = $.grep(Object.keys(selected_coupon_id), function(i) {
-                    console.log(value);
+                    // console.log(value);
                     return val.id.toString() ==value;
                 });
                 if(is_inArray.length > 0){
