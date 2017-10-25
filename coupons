@@ -201,7 +201,7 @@
                     // console.log(Object.keys(selected_coupon_id).length);
         			selected_coupon_id.push(current_coupon_id);
         			//[Object.keys(selected_coupon_id).length] = current_coupon_id;
-        		    console.log(selected_coupon_id);
+        		  //  console.log(selected_coupon_id);
     		    } else {
     		        $(el).attr("is_in_cart","false");
     		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508346683000/Basket@2x.png");
