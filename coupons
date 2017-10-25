@@ -91,7 +91,7 @@
                 </script>
             </div>
             <div id="store_coupon_container">
-                <script id="coupon_template" type="x-tmpl-mustache/text">
+                <script id="store_coupon_template" type="x-tmpl-mustache/text">
                    <div class="col-md-6">
                         <div class="product large" id="{{id}}" >
                             <div class="make3D col-md-6">
