@@ -116,6 +116,7 @@
         renderCoupons('#coupon_container','#coupon_template', coupons);
         selected_coupon_id = {};
         var cache_coupon_ids = localStorage['coupon_ids'];
+        $.cookie
         if (cache_coupon_ids) {
             selected_coupon_id = JSON.parse(cache_coupon_ids);
             console.log(selected_coupon_id);
