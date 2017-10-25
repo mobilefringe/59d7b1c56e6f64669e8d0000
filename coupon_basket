@@ -207,6 +207,7 @@
             }
         });
         var w = window.open();
+        var fields = [];
         $.each(coupons , function (index, val){
             
         });
