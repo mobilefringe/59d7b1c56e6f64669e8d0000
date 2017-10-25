@@ -22,7 +22,7 @@
     </div>
     <div class="store_nav hidden_phone">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
                 <a class="active_store_nav" href="">SORT BY DATE</a>
             </div>
             <div class="col-md-3">
