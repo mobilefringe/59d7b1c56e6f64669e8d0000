@@ -296,6 +296,7 @@
         });
         $('.show_all_coupons').click(function(e){
             $("#coupon_container").children().show();
+            $("#coupon_container").children().show();
             // coupons = getStoreCouponsListByStoreName();
             // var store_name = $(this).attr('data-name');
             // $('.active_cat').removeClass('active_cat');
