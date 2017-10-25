@@ -240,7 +240,7 @@
         var html = "<!DOCTYPE HTML>";
         html += '<html lang="en-us">';
         html += '<head><link href="//preview-59d7b1c56e6f64669e8d0000.codecloudapp.com/coupons.css" rel="stylesheet"><style> .col-md-6{width:50%;float:left;border: 1px solid #000;padding:10px}.make3D.col-md-6, .info-large.col-md-6{border:none}</style></head>';
-        html += "<body><a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/undefined/dtl_600x180_logo.png" class="main_logo" /></a>";
+        html += "<body><a href='/'><img src='//codecloud.cdn.speedyrails.net/sites/57f2b1016e6f645d03550000/image/png/undefined/dtl_600x180_logo.png' class='main_logo' /></a>";
          if(headers != null) html += headers + "<br/><br/>";
         // var fields = [];
         $.each(coupons , function (index, val){
