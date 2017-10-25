@@ -67,7 +67,6 @@
     <div id="wrapper">
 
         <div id="grid" class="row">
-        
             <div id="coupon_container">
                 <script id="coupon_template" type="x-tmpl-mustache/text">
                    <div class="col-md-6">
