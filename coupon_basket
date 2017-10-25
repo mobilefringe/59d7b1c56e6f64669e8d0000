@@ -153,7 +153,9 @@
       
         $('.colors-large a').click(function(){return false;});
         
-       
+        $(".print_btn").click(function(e){
+            printPage();
+        });
     	$('.add-to-basket').each(function(i, el){
     	   // console.log("baskets", $(el));
     		$(el).click(function(){
