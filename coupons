@@ -281,7 +281,7 @@
                 //     $(val).show();
                 // }
             });
-            $.each($("#coupon_container"), function(i,val) {
+            $.each($("#coupon_container").children(), function(i,val) {
                 if( !$(val).children().is(":visible")){
                 console.log(val);
                 
