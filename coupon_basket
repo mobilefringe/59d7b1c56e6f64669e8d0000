@@ -215,7 +215,7 @@
          if(headers != null) html += headers + "<br/><br/>";
         // var fields = [];
         $.each(coupons , function (index, val){
-            '<div class="col-md-6"><div class="product large"><div class="make3D col-md-6"><div class="product-front"><img src="'+val.promo_image_url_abs+'" alt="" /></div></div><div class="info-large col-md-6"><p>'+ val.store_name+' - '+ val.dates+'</p><h4>'+ val.name+'</h4><p>'+description+'<p/></div></div></div>'
+           html +=  '<div class="col-md-6"><div class="product large"><div class="make3D col-md-6"><div class="product-front"><img src="'+val.promo_image_url_abs+'" alt="" /></div></div><div class="info-large col-md-6"><p>'+ val.store_name+' - '+ val.dates+'</p><h4>'+ val.name+'</h4><p>'+description+'<p/></div></div></div>'
         });
         
         // var field= $(".coupon_image").html();
@@ -226,7 +226,7 @@
     
         //check to see if they are null so "undefined" doesnt print on the page. <br>s optional, just to give space
        
-        if(field != null) html += field + "<br/><br/>";
+        if(field != null)  "<br/><br/>";
         if(field2 != null) html += field2 + "<br/><br/>";
         if(field3 != null) html += field3 + "<br/><br/>";
         html += "</body>";
