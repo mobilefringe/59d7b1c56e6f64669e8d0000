@@ -1113,6 +1113,9 @@
     text-align:right;
     a{
         display:inline;
+        &:hover {
+            text-decoration:none;
+        }
     }
 }
 .dets_btn{
