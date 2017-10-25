@@ -1,5 +1,5 @@
 <link href="../coupons.css" rel="stylesheet">
-<div id="wrapper">
+<div id="wrapper" class="main_container">
 
         <div id="grid" class="row">
         
