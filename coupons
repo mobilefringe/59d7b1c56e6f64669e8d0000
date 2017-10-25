@@ -265,6 +265,7 @@
             var store_name = $(this).attr('data-name');
             $('.active_cat').removeClass('active_cat');
             $(this).addClass('active_cat');
+            $(".product.large").hide();
             // var rows = $('.cats_row');
             // rows.hide();
             // $('.store_initial').hide();
