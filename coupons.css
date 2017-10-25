@@ -1150,7 +1150,7 @@
 }
 .print_btn {
     background: #f89d54;
-    color:#fff;
+    color:#fff!important;
     border: 1px solid #f89d54;
     &:hover{
     background: #fff;
