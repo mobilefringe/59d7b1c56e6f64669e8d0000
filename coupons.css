@@ -1061,9 +1061,11 @@
     #store_list_container {
         li {
             cursor: pointer;
-        &:hover {
-                    text-transform: underline
-        }
+            &:hover {
+                a{
+                    text-transform: underline;
+                }
+            }
         
         }
     }
