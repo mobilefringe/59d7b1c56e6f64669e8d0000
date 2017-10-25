@@ -279,7 +279,7 @@
         addNewStyle();
     });
     function addNewStyle(){
-        console.log( $(".basket_number"));
+        // console.log( $(".basket_number"));
         var float_to_position = $(".basket_number").offset();
         console.log("float_to_position", float_to_position);
         var float_style_1="div.floating-cart.moveToCart{left: "+float_to_position.left+"px!important;top:"+float_to_position.top+"px !important;width: 47px;height: 47px;	-webkit-transition: all 800ms ease-in-out;-moz-transition: all 800ms ease-in-out;-ms-transition: all 800ms ease-in-out;-o-transition: all 800ms ease-in-out;transition: all 800ms ease-in-out; }";
