@@ -1154,7 +1154,7 @@
     border: 1px solid #f89d54;
     &:hover{
     background: #fff;
-    color: #f89d54;
+    color: #f89d54!important;
     }
 }
 .social_icons{
