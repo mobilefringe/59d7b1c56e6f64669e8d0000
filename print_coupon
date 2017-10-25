@@ -144,8 +144,8 @@
         
         $('.custom_backdrop').remove();
         $('.yield').fadeIn();
-         window.print();
- setTimeout(window.close, 0);
+        window.print();
+        setTimeout(window.close, 0);
     }
     // function printPage() {
     //     var coupons = [];
