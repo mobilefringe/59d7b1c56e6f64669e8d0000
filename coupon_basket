@@ -95,6 +95,7 @@
         var cache_coupon_ids = localStorage['coupon_ids'];
         if (cache_coupon_ids) {
             var coupons = getCouponsList();
+            console.log(coupons)
             coupons = $.grep(coupons, function( val, i ) {
                         return ($.inArray(val.toString(),selected_coupon_id));
                     });
