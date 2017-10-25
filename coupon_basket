@@ -119,7 +119,7 @@
                 renderCoupons('#coupon_container','#coupon_template', coupons);
             }
             else {
-                
+                $("#no_coupon").show();
             }
             
             updatePage();
