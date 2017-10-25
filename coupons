@@ -262,7 +262,7 @@
     
         $('.show_coupon_by_stores').click(function(e){
             coupons = getStoreCouponsListByStoreName();
-            var store_id = $(this).attr('data-name');
+            var store_name = $(this).attr('data-name');
             $('.active_cat').removeClass('active_cat');
             $(this).addClass('active_cat');
             // var rows = $('.cats_row');
