@@ -114,7 +114,7 @@
         var coupons = getCouponsList();
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
-        selected_coupon_id = {};
+        selected_coupon_id = [];
         // var cache_coupon_ids = localStorage['coupon_ids'];
         var cache_coupon_ids = $.cookie().coupon_ids;
         if (cache_coupon_ids) {
