@@ -108,7 +108,6 @@
                     return val.id.toString() ==value;
                 });
                 if(is_inArray.length > 0){
-                    
                     coupons.push(val);
                 }
             });
