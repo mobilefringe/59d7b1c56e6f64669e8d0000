@@ -1228,3 +1228,13 @@ div.floating-cart.moveToCart{
     	left: 1300px !important;
     }
 }
+@media (min-width: 1400px){
+    body.MakeFloatingCart{ 
+        div.floating-cart.moveToCart{	
+        	left:  1300px !important;
+        }
+    }
+    div.floating-cart.moveToCart{
+    	left: 1300px !important;
+    }
+}
