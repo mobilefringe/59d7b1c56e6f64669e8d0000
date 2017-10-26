@@ -222,7 +222,7 @@
         //     			$("body").removeClass("MakeFloatingCart");
             			
         // 		    }, 1000);
-        $("body").append('<div class="floating-cart"></div>');		
+                    $("body").append('<div class="floating-cart"></div>');		
         			var cart = $('div.floating-cart');		
         			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
         			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
