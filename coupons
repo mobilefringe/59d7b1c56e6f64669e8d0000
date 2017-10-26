@@ -213,7 +213,7 @@
         			$("div.floating-cart.moveToCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");
         // 			console.log(float_to_position);
-        			 //   $("body.MakeFloatingCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
+        			    $("body.MakeFloatingCart").css({'top' : float_to_position.top + 'px!important', "left" : float_to_position.left + 'px!important'});
         			 //   console.log("$('body.MakeFloatingCart').offset()", $("body.MakeFloatingCart").offset());
         			}, 800);
         // 			console.log("2", cart.offset());
