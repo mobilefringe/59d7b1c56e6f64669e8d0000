@@ -1224,4 +1224,7 @@ div.floating-cart.moveToCart{
         	left:  1200px !important;
         }
     }
+    div.floating-cart.moveToCart{
+    	left: 1083.5px !important;
+    }
 }
