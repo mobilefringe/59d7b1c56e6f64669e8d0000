@@ -201,9 +201,9 @@
     		        $(el).attr("src","//codecloud.cdn.speedyrails.net/sites/59d7b1c56e6f64669e8d0000/image/png/1508347595000/CheckmarkGreen.png");
     		        $(el).parent().parent().addClass("green_selected_box"); 
     		        $(".basket_number").text(parseInt($(".basket_number").text())+1);
-    		        var img = $("#"+ current_coupon_id +" .product-front img");
-    		        var position =$(img).offset();	;//$("#"+$(el).parent().parent().attr("id") +" .product-front img").offset();	
-    		        console.log("img",img, "img src",img.attr("src"));
+    		      //  var img = $("#"+ current_coupon_id +" .product-front img");
+    		      //  var position =$(img).offset();	;//$("#"+$(el).parent().parent().attr("id") +" .product-front img").offset();	
+    		      //  console.log("img",img, "img src",img.attr("src"));
         // 			$("body").append('<div class="floating-cart"></div>');		
         // 			var cart = $('div.floating-cart');
         // // 			console.log("1", cart.offset());
@@ -222,17 +222,17 @@
         //     			$("body").removeClass("MakeFloatingCart");
             			
         // 		    }, 1000);
-                    $("body").append('<div class="floating-cart"></div>');		
-        			var cart = $('div.floating-cart');		
-        			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
-        			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
-        			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
+        //             $("body").append('<div class="floating-cart"></div>');		
+        // 			var cart = $('div.floating-cart');		
+        // 			$("<img src='"+img.attr("src")+"' class='floating-image-large' />").appendTo(cart);
+        // 			cart.css({'top' : position.top + 'px', "left" : position.left + 'px'}).fadeIn("slow").addClass('moveToCart');		
+        // 			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
         			
-        			setTimeout(function(){
-            			$('div.floating-cart').remove();
-            			$("body").removeClass("MakeFloatingCart");
+        // 			setTimeout(function(){
+        //     			$('div.floating-cart').remove();
+        //     			$("body").removeClass("MakeFloatingCart");
             			
-        		    }, 1000);
+        // 		    }, 1000);
         		    //add coupon to list variable
         // 			selected_coupon_id.add(current_coupon_id);
                     // console.log(Object.keys(selected_coupon_id).length);
