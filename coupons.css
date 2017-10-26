@@ -796,18 +796,7 @@
     		 -o-transition: all 800ms ease-in-out;
      		    transition: all 800ms ease-in-out; 
     }
-    body.MakeFloatingCart div.floating-cart.moveToCart{	
-    	left:  1083.5px !important;
-    	top: 310px !important;
-    	width: 21px;
-    	height: 22px;
-    	box-shadow:0px 5px 31px -1px rgba(0, 0, 0, 0);
-    	-webkit-transition: all 200ms ease-out;
-    	   -moz-transition: all 200ms ease-out;
-    		-ms-transition: all 200ms ease-out;
-    		 -o-transition: all 200ms ease-out;
-     		    transition: all 200ms ease-out;
-    }
+    
     div.cart-icon-top{
     	position:absolute;
     	background:#fff url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/cart.png") 0 -3px no-repeat;
