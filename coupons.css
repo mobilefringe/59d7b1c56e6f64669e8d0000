@@ -21,8 +21,9 @@ body.MakeFloatingCart{
     		 -o-transition: all 200ms ease-out;
      		    transition: all 200ms ease-out;
     }
+    div.cart-icon-top{z-index:30;}
 }
-body.MakeFloatingCart div.cart-icon-top{z-index:30;}
+body.MakeFloatingCart 
 body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}	
 .cart-item{	
 	padding: 11px 0 5px 110px;
