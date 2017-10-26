@@ -1218,7 +1218,7 @@ div.floating-cart.moveToCart{
 }
 @media (max-width: 768px){
 }
-@media (min-width: 1300px){
+@media (min-width: 1400px){
     body.MakeFloatingCart{ 
         div.floating-cart.moveToCart{	
         	left:  1300px !important;
