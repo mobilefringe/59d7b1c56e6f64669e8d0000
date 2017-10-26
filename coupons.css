@@ -1085,6 +1085,8 @@ div.floating-cart.moveToCart{
 
 .coupons_dets_container 
 {   
+        overflow: hidden;
+    margin: auto;
     .col-md-3:nth-child(1) {
         border-right: 1px solid #979797;
     }
