@@ -137,7 +137,7 @@
         // console.log(category_of_stores);
         renderGeneral('#category_container, #category_container2', '#category_template', category_of_stores);
         $('#category_container, #category_container2').prepend('<li href="#" class="show_all_coupons">All</li>');
-        var coupons = getCouponsList();
+        var coupons = getCouponsList().sortBy(function(o){ return o.start_date });
         console.log(coupons);
         renderCoupons('#coupon_container','#coupon_template', coupons);
         selected_coupon_id = [];
