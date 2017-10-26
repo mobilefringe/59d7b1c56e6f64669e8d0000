@@ -229,8 +229,8 @@
         			setTimeout(function(){$("body").addClass("MakeFloatingCart");}, 800);
         			
         			setTimeout(function(){
-            // 			$('div.floating-cart').remove();
-            // 			$("body").removeClass("MakeFloatingCart");
+            			$('div.floating-cart').remove();
+            			$("body").removeClass("MakeFloatingCart");
             			
         		    }, 1000);
         		    //add coupon to list variable
